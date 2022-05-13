@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>cgi_library_61b49</Name>
+  <AppVersion>2021-09-13T11:24:26Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21085.24.0</CreatedByClientVersion>
+  <MinClientVersion>3.21085.24.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1136","primaryDeviceHeight":"640","sienaVersion":"f6bdc160-e06e-40a5-8907-119511c2b1e9","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.21085.24","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(251, 101, 60, 255)</BackgroundColor>
+  <DisplayName>Library</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage>bigger logo</CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[{"appComponentName":"ac4929fdbb0b4933993e3f639d31a56e","displayName":"HeaderComponent","appName":"23dc1677-3632-400f-aab5-5c2a215a4753","appVersion":"2021-09-13T11:24:26Z","appDisplayName":"Library","environmentName":"046204fa-1f45-4173-8cb6-bce091d6ce1d","owner":{"id":"c24e1000-0e1e-408e-98e1-c73234fd82ec","displayName":"Pacek Katri extadm","type":"User","tenantId":"0894c731-e58f-4cef-a03d-f00a1fd16d7f","userPrincipalName":"extadmkpacek@2mit.onmicrosoft.com"},"allowCustomization":true,"createdOn":"2021-09-01T11:25:25.474Z","lastModifiedOn":"2021-09-13T11:23:08.478Z","connectionReferences":{}},{"appComponentName":"c4bb8a331835496c87ccf0bd6ca7c97f","displayName":"FilterBackGroundBar","appName":"23dc1677-3632-400f-aab5-5c2a215a4753","appVersion":"2021-09-13T11:24:26Z","appDisplayName":"Library","environmentName":"046204fa-1f45-4173-8cb6-bce091d6ce1d","owner":{"id":"c24e1000-0e1e-408e-98e1-c73234fd82ec","displayName":"Pacek Katri extadm","type":"User","tenantId":"0894c731-e58f-4cef-a03d-f00a1fd16d7f","userPrincipalName":"extadmkpacek@2mit.onmicrosoft.com"},"allowCustomization":true,"createdOn":"2021-09-01T11:25:25.474Z","lastModifiedOn":"2021-09-13T11:23:08.478Z","connectionReferences":{}}]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>1</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/cgi_library_61b49_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/cgi_library_61b49_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

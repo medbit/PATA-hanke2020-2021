@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>cgi_PatalogiPro</SiteMapUniqueName>
+  <EnableCollapsibleGroups>True</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="Area_PatalogiPro" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="PatalogiPro" />
+        <Title LCID="1053" Title="PatalogiPro" />
+        <Title LCID="1035" Title="PatalogiPro" />
+      </Titles>
+      <Group Id="Group_Patalogi" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Patalogi" />
+          <Title LCID="1053" Title="Patalogi" />
+          <Title LCID="1035" Title="Patalogi" />
+        </Titles>
+        <SubArea Id="NewSubArea_5da4b14" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cgi_servicetype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_2fce568b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cgi_service" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubarea_87ae75b4" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cgi_serviceplace" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubarea_d3153a8d" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cgi_servicenotification" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubarea_1ac097eb" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cgi_article" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubarea_d727d011" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cgi_ownerorganization" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="PatalogiPro" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

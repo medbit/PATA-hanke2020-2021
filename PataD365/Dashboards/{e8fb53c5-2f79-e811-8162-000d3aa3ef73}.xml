@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Omnichannel Agent Dashboard" languagecode="1033" />
+    <LocalizedName description="Monikanavan asiakaspalvelijan koontinäyttö" languagecode="1035" />
+    <LocalizedName description="Instrumentpanel för handläggare i Flerkanal" languagecode="1053" />
+  </LocalizedNames>
+  <FormId>{e8fb53c5-2f79-e811-8162-000d3aa3ef73}</FormId>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab id="{3338e44e-2af9-427f-bab7-44e2da35d754}" verticallayout="true" showlabel="false">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section id="{bcc2fd4d-0deb-41de-8cb1-64c676b2a82a}" showlabel="false" columns="111" showbar="false">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell id="{9cc9a819-8f1c-4632-95ed-0bfbede77023}" rowspan="18" showlabel="false" auto="false" colspan="1" availableforphone="false">
+                          <labels>
+                            <label description="Conversations" languagecode="1033" />
+                            <label description="Konversationer" languagecode="1053" />
+                            <label description="Keskustelut" languagecode="1035" />
+                          </labels>
+                          <control id="MyItems_OCStreamControl" indicationOfSubgrid="true" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{e1121832-7c00-4ce4-c1d5-25a0ee24cc07}">
+                            <parameters>
+                              <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>20</RecordsPerPage>
+                              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                              <ViewId>{51E7EB15-8D9B-E811-8162-000D3AA29779}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{50e49b41-019d-423e-a40e-ee8487848aa2}" rowspan="18" showlabel="false" auto="false" colspan="1" availableforphone="false">
+                          <labels>
+                            <label description="Conversations" languagecode="1033" />
+                            <label description="Konversationer" languagecode="1053" />
+                            <label description="Keskustelut" languagecode="1035" />
+                          </labels>
+                          <control id="OpenItems_OCStreamControl" indicationOfSubgrid="true" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{8ae22207-e9c0-1b08-ae09-dc946dbd5c71}">
+                            <parameters>
+                              <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>20</RecordsPerPage>
+                              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                              <ViewId>{2D99E61E-919B-E811-8162-000D3AA29779}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{8ba195c9-9ab5-44a8-b70d-7de12245be98}" rowspan="18" showlabel="false" auto="false" colspan="1" availableforphone="false">
+                          <labels>
+                            <label description="Conversations" languagecode="1033" />
+                            <label description="Konversationer" languagecode="1053" />
+                            <label description="Keskustelut" languagecode="1035" />
+                          </labels>
+                          <control id="ClosedItems_OCStreamControl" indicationOfSubgrid="true" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{913b65d1-1467-748c-6ba3-90311023d1a4}">
+                            <parameters>
+                              <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>20</RecordsPerPage>
+                              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                              <ViewId>{742C1767-919B-E811-8162-000D3AA29779}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <DisplayConditions FallbackForm="true">
+          <Everyone />
+        </DisplayConditions>
+        <controlDescriptions>
+          <controlDescription forControl="{e1121832-7c00-4ce4-c1d5-25a0ee24cc07}">
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+              <parameters>
+                <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                <ChartGridMode>Grid</ChartGridMode>
+                <EnableQuickFind>false</EnableQuickFind>
+                <EnableViewPicker>false</EnableViewPicker>
+                <EnableJumpBar>false</EnableJumpBar>
+                <RecordsPerPage>20</RecordsPerPage>
+                <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                <ViewId>{51E7EB15-8D9B-E811-8162-000D3AA29779}</ViewId>
+                <IsUserView>false</IsUserView>
+                <ViewIds />
+                <AutoExpand>Fixed</AutoExpand>
+                <VisualizationId />
+                <IsUserChart>false</IsUserChart>
+                <EnableChartPicker>false</EnableChartPicker>
+                <RelationshipName />
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{51E7EB15-8D9B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">myitems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{51E7EB15-8D9B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">myitems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{51E7EB15-8D9B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">myitems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{8ae22207-e9c0-1b08-ae09-dc946dbd5c71}">
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+              <parameters>
+                <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                <ChartGridMode>Grid</ChartGridMode>
+                <EnableQuickFind>false</EnableQuickFind>
+                <EnableViewPicker>false</EnableViewPicker>
+                <EnableJumpBar>false</EnableJumpBar>
+                <RecordsPerPage>20</RecordsPerPage>
+                <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                <ViewId>{2D99E61E-919B-E811-8162-000D3AA29779}</ViewId>
+                <IsUserView>false</IsUserView>
+                <ViewIds />
+                <AutoExpand>Fixed</AutoExpand>
+                <VisualizationId />
+                <IsUserChart>false</IsUserChart>
+                <EnableChartPicker>false</EnableChartPicker>
+                <RelationshipName />
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{2D99E61E-919B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">openitems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{2D99E61E-919B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">openitems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{2D99E61E-919B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">openitems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+          </controlDescription>
+          <controlDescription forControl="{913b65d1-1467-748c-6ba3-90311023d1a4}">
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+              <parameters>
+                <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                <ChartGridMode>Grid</ChartGridMode>
+                <EnableQuickFind>false</EnableQuickFind>
+                <EnableViewPicker>false</EnableViewPicker>
+                <EnableJumpBar>false</EnableJumpBar>
+                <RecordsPerPage>20</RecordsPerPage>
+                <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                <ViewId>{742C1767-919B-E811-8162-000D3AA29779}</ViewId>
+                <IsUserView>false</IsUserView>
+                <ViewIds />
+                <AutoExpand>Fixed</AutoExpand>
+                <VisualizationId />
+                <IsUserChart>false</IsUserChart>
+                <EnableChartPicker>false</EnableChartPicker>
+                <RelationshipName />
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{742C1767-919B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">closeditems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{742C1767-919B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">closeditems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.OCStreamControl.OCStreamControl">
+              <parameters>
+                <data-set name="OCStreamDataSet">
+                  <ViewId>{742C1767-919B-E811-8162-000D3AA29779}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>msdyn_ocliveworkitem</TargetEntityType>
+                  <EnableViewPicker>false</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <CardForm static="true" type="Form.Card">d5b197d3-dec8-4e94-9d0b-b3e5aac48a2f:Card|msdyn_ocliveworkitem|00000000-0000-0000-0000-000000000000</CardForm>
+                <EnableAutoRefresh static="true" type="Enum">yes</EnableAutoRefresh>
+                <StreamDataSet static="true" type="Enum">closeditems</StreamDataSet>
+                <AutoRefreshInterval static="true" type="Whole.None">120</AutoRefreshInterval>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

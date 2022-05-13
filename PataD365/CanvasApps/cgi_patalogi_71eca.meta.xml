@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>cgi_patalogi_71eca</Name>
+  <AppVersion>2021-12-02T06:41:42Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21112.22.0</CreatedByClientVersion>
+  <MinClientVersion>3.21112.22.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1440","primaryDeviceHeight":"900","sienaVersion":"97d742ee-b768-4eef-8ce5-b312a4902406","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21112.22","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(28, 48, 74, 1)</BackgroundColor>
+  <DisplayName>Patalogi</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Territories":{"entitySetName":"territories","logicalName":"territory"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Organizations":{"entitySetName":"cgi_organizations","logicalName":"cgi_organization"},"Pata Articles":{"entitySetName":"cgi_articles","logicalName":"cgi_article"},"Muistiinpanot":{"entitySetName":"annotations","logicalName":"annotation"},"Palveluilmoitukset":{"entitySetName":"cgi_servicenotifications","logicalName":"cgi_servicenotification"},"Kaaviosovellukset":{"entitySetName":"canvasapps","logicalName":"canvasapp"},"Environment Variable Definitions":{"entitySetName":"environmentvariabledefinitions","logicalName":"environmentvariabledefinition"},"Environment Variable Values":{"entitySetName":"environmentvariablevalues","logicalName":"environmentvariablevalue"},"Palvelupaikat":{"entitySetName":"cgi_serviceplaces","logicalName":"cgi_serviceplace"},"Palvelut":{"entitySetName":"cgi_services","logicalName":"cgi_service"},"Palvelun tyypit":{"entitySetName":"cgi_servicetypes","logicalName":"cgi_servicetype"},"Omistavat organisaatiot":{"entitySetName":"cgi_ownerorganizations","logicalName":"cgi_ownerorganization"},"Asiointikanavat":{"entitySetName":"cgi_servicechannels","logicalName":"cgi_servicechannel"},"Palveluajat":{"entitySetName":"cgi_servicetimes","logicalName":"cgi_servicetime"},"Liiketoimintayksiköt":{"entitySetName":"businessunits","logicalName":"businessunit"},"Ratkaisut":{"entitySetName":"solutions","logicalName":"solution"}},"components":[{"componentName":"CustomControl","identifier":"raw_RAW.CanvasFileDownloader","identifierType":"LogicalName","capabilities":{"pcfExternalServiceUsageAllowed":false}}]}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"territory","componenttype":1},{"logicalname":"systemuser","componenttype":1},{"logicalname":"cgi_organization","componenttype":1},{"logicalname":"cgi_article","componenttype":1},{"logicalname":"annotation","componenttype":1},{"logicalname":"cgi_servicenotification","componenttype":1},{"logicalname":"canvasapp","componenttype":1},{"logicalname":"environmentvariabledefinition","componenttype":1},{"logicalname":"environmentvariablevalue","componenttype":1},{"logicalname":"cgi_serviceplace","componenttype":1},{"logicalname":"cgi_service","componenttype":1},{"logicalname":"cgi_servicetype","componenttype":1},{"logicalname":"cgi_ownerorganization","componenttype":1},{"logicalname":"cgi_servicechannel","componenttype":1},{"logicalname":"cgi_servicetime","componenttype":1},{"logicalname":"businessunit","componenttype":1},{"logicalname":"solution","componenttype":1},{"dependencyid":"","logicalname":"raw_RAW.CanvasFileDownloader","componenttype":66,"componenttypeplatformname":"CustomControl"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/cgi_patalogi_71eca_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/cgi_patalogi_71eca_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

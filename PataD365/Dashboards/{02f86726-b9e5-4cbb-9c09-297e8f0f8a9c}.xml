@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Aloitusnäkymä" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{02f86726-b9e5-4cbb-9c09-297e8f0f8a9c}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>1</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{10a956ca-74d2-43ea-a8dc-21b96b23d2bf}" labelid="{3af8011d-9915-4dae-9dfe-81113db02860}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="111" id="{8be1a0a7-db92-4fde-8188-e24c97abce9c}" labelid="{f7ffaebd-37f5-4250-940a-89ce091cfbe3}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="15" showlabel="false" id="{c06f787e-4d44-4657-9582-2a1cba827f63}" auto="false" labelid="{ce30ffdd-e29f-4460-ac21-0d0e33a94810}">
+                          <labels>
+                            <label description="Avoimet tehtävät" languagecode="1033" />
+                            <label description="Ärenden" languagecode="1053" />
+                            <label description="Avoimet tehtävät" languagecode="1035" />
+                          </labels>
+                          <control id="Componentcd8b2b0" uniqueid="{d8db8660-7166-00cc-a957-193d90bb5817}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>queueitem</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <RecordsPerPage>11</RecordsPerPage>
+                              <HeaderColorCode>#FEF7F5</HeaderColorCode>
+                              <ViewId>{81484ACC-C30C-4869-B40C-2D1154FC1E5F}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{81484ACC-C30C-4869-B40C-2D1154FC1E5F},{8EF40D37-0868-440C-AF6B-CAC0C62E78E3}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{48211385-19BA-EB11-8236-002248805748}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="9" showlabel="true" id="{50803be3-d806-4e70-a5db-b905832e0184}" auto="false" labelid="{6f3bb187-2e3c-4b90-bc26-e8bf4ca66de1}">
+                          <labels>
+                            <label description="Ajankohtaista" languagecode="1033" />
+                            <label description="Ärenden" languagecode="1053" />
+                            <label description="Ajankohtaista" languagecode="1035" />
+                          </labels>
+                          <control id="Component3eb9575" uniqueid="{97c9edb6-3917-d9e0-0eb1-ba7a3e9e8585}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>cgi_servicenotification</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <RecordsPerPage>5</RecordsPerPage>
+                              <HeaderColorCode>#FEF7F5</HeaderColorCode>
+                              <ViewId>{220115D8-737D-49CA-A64F-877B7F17A364}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{220115D8-737D-49CA-A64F-877B7F17A364}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="1" rowspan="6" showlabel="false" id="{ad4f9dc6-0404-4287-aee1-04e20eeb4288}" labelid="{e55e9e69-772a-4749-b31c-a79244edad30}">
+                          <labels>
+                            <label description="Pikalinkit" languagecode="1033" />
+                            <label description="Pikalinkit" languagecode="1035" />
+                          </labels>
+                          <control id="WebResource_Pikalinkit" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                            <parameters>
+                              <Url>cgi_pikalinkit</Url>
+                              <PassParameters>false</PassParameters>
+                              <ShowOnMobileClient>false</ShowOnMobileClient>
+                              <Security>false</Security>
+                              <Scrolling>auto</Scrolling>
+                              <Border>true</Border>
+                              <WebResourceId>{D4BA2D96-71BC-EB11-BACC-000D3A4BED21}</WebResourceId>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <controlDescriptions />
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.6</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>
