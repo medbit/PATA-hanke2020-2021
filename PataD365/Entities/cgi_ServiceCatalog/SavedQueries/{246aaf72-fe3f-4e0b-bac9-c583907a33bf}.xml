@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{246aaf72-fe3f-4e0b-bac9-c583907a33bf}</savedqueryid>
+    <layoutxml>
+      <grid name="cgi_servicecatalogs" jump="cgi_name" select="1" icon="1" preview="1">
+        <row name="cgi_servicecatalog" id="cgi_servicecatalogid">
+          <cell name="cgi_name" width="300" />
+          <cell name="cgi_organizationid" width="100" />
+          <cell name="cgi_summary" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_servicecatalog">
+          <attribute name="cgi_servicecatalogid" />
+          <attribute name="cgi_name" />
+          <order attribute="cgi_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_organizationid" />
+          <attribute name="cgi_summary" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Catalog Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

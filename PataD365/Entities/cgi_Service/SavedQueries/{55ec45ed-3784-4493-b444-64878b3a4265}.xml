@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{55ec45ed-3784-4493-b444-64878b3a4265}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_namefi" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_serviceid">
+          <cell name="cgi_namefi" width="300" />
+          <cell name="createdon" width="100" />
+          <cell name="createdby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="modifiedby" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_service">
+          <attribute name="cgi_serviceid" />
+          <attribute name="cgi_namefi" />
+          <order attribute="cgi_namefi" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="createdon" />
+          <attribute name="createdby" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Services" languagecode="1033" />
+      <LocalizedName description="Aktiiviset Services" languagecode="1035" />
+      <LocalizedName description="Aktiva Services" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

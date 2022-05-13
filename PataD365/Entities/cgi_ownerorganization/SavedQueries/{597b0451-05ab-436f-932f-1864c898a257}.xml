@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{597b0451-05ab-436f-932f-1864c898a257}</savedqueryid>
+    <layoutxml>
+      <grid name="cgi_ownerorganizations" jump="cgi_namefi" select="1" icon="1" preview="0">
+        <row name="cgi_ownerorganization" id="cgi_ownerorganizationid">
+          <cell name="cgi_namefi" width="200" />
+          <cell name="cgi_namesv" width="200" />
+          <cell name="cgi_shortnamefi" width="100" />
+          <cell name="cgi_shortnamesv" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_ownerorganization">
+          <attribute name="cgi_ownerorganizationid" />
+          <attribute name="cgi_namefi" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_namesv" />
+          <attribute name="cgi_shortnamefi" />
+          <attribute name="cgi_shortnamesv" />
+          <order attribute="cgi_namefi" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Owner Organization Lookup View" languagecode="1033" />
+      <LocalizedName description="Omistava organisaatio hakunäkymä" languagecode="1035" />
+      <LocalizedName description="Ägande organisation Lookup View" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

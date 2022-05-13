@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{178a828a-8c87-42b0-99cf-e9a0e04d7a37}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_name" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_furtherguidanceid">
+          <cell name="cgi_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_furtherguidance">
+          <attribute name="cgi_furtherguidanceid" />
+          <attribute name="cgi_name" />
+          <attribute name="createdon" />
+          <order attribute="cgi_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Further guidance" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

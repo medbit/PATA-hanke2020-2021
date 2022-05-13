@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0015c866-3702-4ba1-a897-35aa2113e8b8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_namefi" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_serviceid">
+          <cell name="cgi_namefi" width="200" />
+          <cell name="cgi_namesv" width="200" />
+          <cell name="cgi_providernamefi" width="100" />
+          <cell name="cgi_providernamesv" width="100" />
+          <cell name="cgi_visitingaddressfi" width="100" />
+          <cell name="cgi_visitingaddresssv" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_service">
+          <attribute name="cgi_serviceid" />
+          <attribute name="cgi_namefi" />
+          <order attribute="cgi_namefi" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cgi_namefi" operator="like" value="{0}" />
+            <condition attribute="cgi_descriptionfi" operator="like" value="{0}" />
+            <condition attribute="cgi_descriptionsv" operator="like" value="{0}" />
+            <condition attribute="cgi_namesv" operator="like" value="{0}" />
+            <condition attribute="cgi_providernamefi" operator="like" value="{0}" />
+            <condition attribute="cgi_providernamesv" operator="like" value="{0}" />
+            <condition attribute="cgi_visitingaddressfi" operator="like" value="{0}" />
+            <condition attribute="cgi_visitingaddresssv" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cgi_namesv" />
+          <attribute name="cgi_providernamefi" />
+          <attribute name="cgi_providernamesv" />
+          <attribute name="cgi_visitingaddressfi" />
+          <attribute name="cgi_visitingaddresssv" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Services" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

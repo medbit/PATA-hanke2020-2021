@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{df4883d3-1a3f-4cef-839a-048d35f80934}</savedqueryid>
+    <layoutxml>
+      <grid name="cgi_services" jump="cgi_namefi" select="1" icon="1" preview="0">
+        <row name="cgi_service" id="cgi_serviceid">
+          <cell name="cgi_namefi" width="200" />
+          <cell name="cgi_owningorganization" width="200" />
+          <cell name="cgi_namesv" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_service">
+          <attribute name="cgi_serviceid" />
+          <attribute name="cgi_namefi" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_owningorganization" />
+          <attribute name="cgi_namesv" />
+          <order attribute="cgi_namefi" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

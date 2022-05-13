@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4e3e2b4b-4f81-4aac-a5a5-30233ff4b131}</formid>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920">
+      <tabs>
+        <tab id="{d40dc410-6148-458e-a299-1cf7bf31cd87}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{e290da7c-2303-464c-a9f8-423f7952574d}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{705d2e32-9ddc-a2d9-05e0-0d1aa3142173}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Nimi" languagecode="1035" />
+                          <label description="Name" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_name" disabled="false" uniqueid="{b995729e-ddb9-2794-a831-47c1ce983713}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5011cd69-1e74-a989-c662-e875b4eda347}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Follow-up" languagecode="1033" />
+                          <label description="Jatkotoimet/Suunnitelma" languagecode="1035" />
+                          <label description="Follow-up" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_followup" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cgi_followup" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{276b599e-45ce-3ade-05c4-4da9664ec052}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service Line" languagecode="1033" />
+                          <label description="Palvelutehtävä" languagecode="1035" />
+                          <label description="Service Line" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_serviceline" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="cgi_serviceline" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{25d2690e-6d84-d51d-5bc9-d2abac60eae3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service" languagecode="1033" />
+                          <label description="Palvelu" languagecode="1035" />
+                          <label description="Service" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_service" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cgi_service" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{d03283b2-ece2-4974-af86-b4a454f1898d}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dde91bb5-bcb5-4c0c-a93a-be828205b5b5}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{22fbcd9f-1071-48d7-87b8-c813d732558c}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{243c62c1-9b98-4ced-8033-fd23d069148a}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="New Form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

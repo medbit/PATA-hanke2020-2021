@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{621e9ebc-142e-4698-8763-a2314efda726}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_namefi" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_ownerorganizationid">
+          <cell name="cgi_namefi" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_ownerorganization">
+          <attribute name="cgi_ownerorganizationid" />
+          <attribute name="cgi_namefi" />
+          <attribute name="createdon" />
+          <order attribute="cgi_namefi" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cgi_namefi" operator="like" value="{0}" />
+            <condition attribute="cgi_namesv" operator="like" value="{0}" />
+            <condition attribute="cgi_shortnamefi" operator="like" value="{0}" />
+            <condition attribute="cgi_shortnamesv" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Owner Organizations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

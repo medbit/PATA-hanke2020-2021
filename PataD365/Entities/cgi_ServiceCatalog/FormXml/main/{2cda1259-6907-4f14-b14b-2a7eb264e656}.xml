@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2cda1259-6907-4f14-b14b-2a7eb264e656}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{7c034237-ce31-4f93-a152-5411a22365e2}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Yleiset" languagecode="1035" />
+            <label description="Allmänt" languagecode="1053" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8da59b1f-cb9d-4964-a232-562dcc7e6fe7}" height="auto">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Yleiset" languagecode="1035" />
+                    <label description="Allmänt" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9538b699-bbfc-48ba-b625-a4ba060ad96d}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Tjänstens namn" languagecode="1053" />
+                          <label description="Palvelun nimi" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{17026792-6e5f-4eb1-96a0-cf9f33cabe44}" locklevel="0" auto="true" rowspan="4">
+                        <labels>
+                          <label description="Summary" languagecode="1033" />
+                          <label description="Sammanfattning" languagecode="1053" />
+                          <label description="Tiivistelmä" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_summary" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cgi_summary" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                    <row>
+                      <cell id="{76e44f9d-11f6-4306-8831-c3a8bda1b0ea}" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Service Description" languagecode="1033" />
+                          <label description="Beskrivning av tjänsten" languagecode="1053" />
+                          <label description="Palvelun kuvaus" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_servicedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cgi_servicedescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{2179cd7f-0bfc-473c-bbab-625d39f06e72}" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Operating Instructions" languagecode="1033" />
+                          <label description="Verksamhetsföreskrifter" languagecode="1053" />
+                          <label description="Toimintaohje" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_instructions" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cgi_instructions" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{e0be6c8b-a78e-4cce-b5f9-970cee7276e4}" locklevel="0">
+                        <labels>
+                          <label description="Service language" languagecode="1033" />
+                          <label description="Tillgängliga språk" languagecode="1053" />
+                          <label description="Palvelun kielet" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_servicelanguage" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="cgi_servicelanguage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8589635d-d4a3-4a8d-900f-76a10f6d99bd}" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Service voucher" languagecode="1033" />
+                          <label description="Servicesedelinformation" languagecode="1053" />
+                          <label description="Palvelusetelitiedot" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_servicevoucher" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cgi_servicevoucher" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{7e6017d6-4a45-4123-8351-5a12c1b7b205}" locklevel="0">
+                        <labels>
+                          <label description="Territory Area" languagecode="1033" />
+                          <label description="Tjänstens område" languagecode="1053" />
+                          <label description="Palvelun aluetieto" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_territoryarea" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cgi_territoryarea" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{184af476-d78c-4d84-9a38-c4cd5dbc0f5b}" rowspan="7" colspan="1" auto="false" showlabel="true">
+                        <labels>
+                          <label description="Territories" languagecode="1033" />
+                          <label description="Områden" languagecode="1053" />
+                          <label description="Alueet" languagecode="1035" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{523b296e-1b09-b26e-5d23-58cbce65a602}">
+                          <parameters>
+                            <TargetEntityType>territory</TargetEntityType>
+                            <ViewId>{00000000-0000-0000-00AA-000010001050}</ViewId>
+                            <ViewIds />
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RelationshipName>cgi_cgi_servicecatalog_territory</RelationshipName>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row></row>
+                    <row>
+                      <cell id="{a01e7dd6-a871-4322-b8e8-525d8437698c}" locklevel="0">
+                        <labels>
+                          <label description="Service Charge" languagecode="1033" />
+                          <label description="Avgift" languagecode="1053" />
+                          <label description="Maksullisuus" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_servicecharge" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cgi_servicecharge" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7f733106-eb30-446c-99d4-e7ffa9fc68c7}" locklevel="0">
+                        <labels>
+                          <label description="Price" languagecode="1033" />
+                          <label description="Pris" languagecode="1053" />
+                          <label description="Hinta" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cgi_price" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{635b1e9a-01ee-a35e-3124-064d872de702}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Industry" languagecode="1033" />
+                          <label description="Bransch" languagecode="1053" />
+                          <label description="Toimiala" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_industryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cgi_industryid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12962e86-7723-4df5-800d-a4e37bd42d0a}" locklevel="0">
+                        <labels>
+                          <label description="Keywords" languagecode="1033" />
+                          <label description="Nyckelord" languagecode="1053" />
+                          <label description="Sisältää asiasanat" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_keywords" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_keywords" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="1e1ced96-290c-4bda-92f7-9091f5743d93" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Address" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5c6b5a25-6b93-d508-6911-2442368985d5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Street address" languagecode="1033" />
+                          <label description="Gatuadress" languagecode="1053" />
+                          <label description="Katuosoite" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_streetaddress" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_streetaddress" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{30c0203e-c1dc-ea37-98d6-db1ccc9b61da}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Postal code" languagecode="1033" />
+                          <label description="Postnummer" languagecode="1053" />
+                          <label description="Postinumero" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_postalcode" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="cgi_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b00dc34-7ad4-450b-9d3a-63696900990b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Post office" languagecode="1033" />
+                          <label description="Postanstalt" languagecode="1053" />
+                          <label description="Postitoimipaikka" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_postoffice" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_postoffice" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{7c034237-ce31-4f93-a152-5411a22365e2}_section_3" showlabel="false" showbar="false" locklevel="0" id="{0707a538-3a72-2247-51c0-c6927a82c34e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Organization" languagecode="1033" />
+                    <label description="Organisaatio" languagecode="1035" />
+                    <label description="Organisation" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13536465-8e3c-e7c8-c4c7-93c10a5cb1d1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Organisation" languagecode="1053" />
+                          <label description="Organisaatio" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_organizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cgi_organizationid" disabled="false" uniqueid="{3c50c353-e637-1ca8-71a7-845a960b6008}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{46C16951-AB96-4019-901D-A48096E589DF}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{452bdead-03b4-a479-5946-35c9c971c636}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                          <label description="Organisation" languagecode="1053" />
+                          <label description="Organisaatio" languagecode="1035" />
+                        </labels>
+                        <control id="Organizationquickview" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cgi_organizationid" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="cgi_organization"&gt;5b94efe1-3fcf-4e24-86cb-abf144f13e6b&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ea3e8342-df8b-402e-855a-216912c6da13}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f8597ef7-2b7d-46e0-86c8-450c27710812}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{68c6c13f-0f4c-47e9-a936-a1b1b54a974c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{78eb9cd6-0b12-415f-9d0a-077cd654b2a5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6e1a6a27-47c0-4f6e-b013-b9d24411c50e}" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Ägare" languagecode="1053" />
+                <label description="Omistaja" languagecode="1035" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{24920eb6-41ef-4054-b0b8-d8a6a6d60521}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cd344273-11c7-48bb-a115-ada5b5766fbc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6483bda7-396e-4345-bdb1-b1d4ee7de0a4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c334d82e-05d2-4908-a0df-285e66759a98}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

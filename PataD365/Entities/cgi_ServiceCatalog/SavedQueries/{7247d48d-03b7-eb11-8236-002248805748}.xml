@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7247d48d-03b7-eb11-8236-002248805748}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_name" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_servicecatalogid">
+          <cell name="cgi_name" width="300" />
+          <cell name="cgi_organizationid" width="100" />
+          <cell name="cgi_summary" width="112" />
+          <cell name="cgi_keywords" width="100" />
+          <cell name="cgi_instructions" width="100" disableSorting="1" />
+          <cell name="cgi_servicedescription" width="100" disableSorting="1" />
+          <cell name="cgi_servicecharge" width="100" />
+          <cell name="cgi_servicelanguage" width="100" disableSorting="1" />
+          <cell name="cgi_servicevoucher" width="100" disableSorting="1" />
+          <cell name="cgi_territoryarea" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_servicecatalog">
+          <attribute name="cgi_name" />
+          <order attribute="cgi_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_summary" />
+          <attribute name="cgi_organizationid" />
+          <attribute name="cgi_servicedescription" />
+          <attribute name="cgi_instructions" />
+          <attribute name="cgi_keywords" />
+          <attribute name="cgi_territoryarea" />
+          <attribute name="cgi_servicevoucher" />
+          <attribute name="cgi_servicelanguage" />
+          <attribute name="cgi_servicecharge" />
+          <attribute name="cgi_servicecatalogid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Catalogs For Import" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{98fab305-06b7-eb11-8236-002248805748}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_name" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_organizationid">
+          <cell name="cgi_name" width="300" />
+          <cell name="cgi_territorycode" width="100" />
+          <cell name="cgi_alternativename" width="100" />
+          <cell name="cgi_businessid" width="100" />
+          <cell name="cgi_description" width="100" disableSorting="1" />
+          <cell name="cgi_servicearea" width="100" />
+          <cell name="cgi_organizationtype" width="100" />
+          <cell name="cgi_parentorganizationid" width="100" />
+          <cell name="cgi_primaryname" width="100" />
+          <cell name="cgi_role" width="100" />
+          <cell name="cgi_summary" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_organization">
+          <attribute name="cgi_name" />
+          <order attribute="cgi_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_territorycode" />
+          <attribute name="cgi_summary" />
+          <attribute name="cgi_role" />
+          <attribute name="cgi_primaryname" />
+          <attribute name="cgi_parentorganizationid" />
+          <attribute name="cgi_organizationtype" />
+          <attribute name="cgi_servicearea" />
+          <attribute name="cgi_description" />
+          <attribute name="cgi_businessid" />
+          <attribute name="cgi_alternativename" />
+          <attribute name="cgi_organizationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Organizations for Import" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
