@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2474525c-aaae-43ce-97e2-7adb3ed7efa5}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{480c8ffd-7aca-42a0-acda-20cb36999b8c}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="territory information" showlabel="false" showbar="false" id="{3b868bd2-5800-4d97-b6a7-d1765c80b68e}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{baa52233-5f58-4d73-89bd-7bd572f8735d}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Territory Name" languagecode="1033" solutionaction="Added" />
+                          <label description="Områdets namn" languagecode="1053" solutionaction="Added" />
+                          <label description="Alueen nimi" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{fb1cd164-6443-45c7-96df-a49b0e12e98d}" ordinalvalue="20001" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{a180d504-3647-1231-ea8d-5881e46dc859}" showlabel="true" visible="false" locklevel="0" ordinalvalue="10005" solutionaction="Modified">
+                        <labels>
+                          <label description="Parent" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{9e2460dd-4a9d-4ab7-ae20-d122cc868ca8}" ordinalvalue="20003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{bd836507-c610-4665-9a3b-9af8c6a5c60f}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Name SV" languagecode="1033" />
+                          <label description="Namn SV" languagecode="1053" />
+                          <label description="Nimi SV" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_namesv" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_namesv" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0ccbce30-31ba-4df9-b7ac-5369a899a383}" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Municipality code" languagecode="1033" />
+                          <label description="Kommunens kod" languagecode="1053" />
+                          <label description="Kuntanumero" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_municipalitycode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_municipalitycode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{249a4065-eedd-4a09-8680-369b3a80cccd}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Healthcare District Code" languagecode="1033" />
+                          <label description="Sjukvårdskod" languagecode="1053" />
+                          <label description="Sairaanhoitopiirin koodi" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_healthcaredistrictcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_healthcaredistrictcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c367e55c-da63-4c75-8cb5-7b9b16bb60e0}" locklevel="0" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Healthcare District Owner Team" languagecode="1033" />
+                          <label description="Vårddistriktets ägarteam" languagecode="1053" />
+                          <label description="Sairaanhoitopiirin omistava tiimi" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_teamid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cgi_teamid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="description" showlabel="true" showbar="true" id="{808CD9BD-B6B4-4fdd-A08A-FC70D749B722}" IsUserDefined="0" height="auto" ordinalvalue="1" solutionaction="Removed" />
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="subterritories_tab" id="{e567e260-3500-d163-3ee1-82b9817eabc6}" IsUserDefined="0" locklevel="0" showlabel="true" visible="true" expanded="true" ordinalvalue="1" solutionaction="Modified">
+          <labels>
+            <label description="Delområden" languagecode="1053" solutionaction="Added" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="territory_tab1_section_1" showlabel="false" showbar="false" locklevel="0" id="{beeb08dd-71dd-2d99-6c64-2021076378bc}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <labels>
+                    <label description="Delområden" languagecode="1053" solutionaction="Added" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{89513c37-20e9-ded9-20a7-e151d488cc9b}" showlabel="false" colspan="1" auto="true" rowspan="6" ordinalvalue="10000" solutionaction="Modified">
+                        <labels>
+                          <label description="Områden" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                        <control id="territories_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <ViewId solutionaction="Modified">{FA52B641-4030-EC11-B6E6-000D3AAD6F9E}</ViewId>
+                            <AutoExpand solutionaction="Modified">Auto</AutoExpand>
+                            <EnableViewPicker solutionaction="Modified">true</EnableViewPicker>
+                            <ViewIds solutionaction="Modified">{FA52B641-4030-EC11-B6E6-000D3AAD6F9E}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ba66c576-8237-45b5-8d6f-11ca7e1b2143}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{e75969e2-fcd8-41ac-a958-f6a21899a275}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{46e2ab6b-f050-4ab2-9085-153eebece941}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c84ca5c6-ef5f-4174-810f-74a991381060}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{54bdf07b-d710-445e-9645-50fe33b34245}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{ecaba574-22b5-454c-8945-91a63c33471c}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{712a151a-c195-422d-8a27-dc1d6fd5a337}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{879f3ed5-7e6d-4b59-8fa9-ed63c49e15f4}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Tiedot" languagecode="1035" />
+      <LocalizedName description="Information" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Tämän entiteetin lomake." languagecode="1035" />
+      <Description description="Ett formulär för den här entiteten." languagecode="1053" />
+    </Descriptions>
+  </systemform>
+</forms>

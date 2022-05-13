@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c0bb354c-6de2-4873-96ff-237e8b2d6b21}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="lastname" select="1" icon="1" preview="1">
+        <row name="result" id="territoryid">
+          <cell name="name" width="300" />
+          <cell name="parentterritoryid" width="100" />
+          <cell name="cgi_municipalitycode" width="100" />
+          <cell name="cgi_healthcaredistrictcode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="territory">
+          <attribute name="name" />
+          <attribute name="territoryid" />
+          <order attribute="name" descending="false" />
+          <attribute name="parentterritoryid" />
+          <attribute name="cgi_municipalitycode" />
+          <attribute name="cgi_healthcaredistrictcode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Territory Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Alueiden erikoishaun näkymä" languagecode="1035" />
+      <LocalizedName description="Avancerad sökningsvy för områden" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

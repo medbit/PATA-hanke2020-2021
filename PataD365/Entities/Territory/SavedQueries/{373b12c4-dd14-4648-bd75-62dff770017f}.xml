@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{373b12c4-dd14-4648-bd75-62dff770017f}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="territoryid">
+          <cell name="name" width="300" />
+          <cell name="cgi_namesv" width="300" />
+          <cell name="parentterritoryid" width="100" />
+          <cell name="cgi_municipalitycode" width="100" />
+          <cell name="cgi_healthcaredistrictcode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="territory">
+          <order attribute="name" descending="false" />
+          <attribute name="name" />
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="name" operator="like" value="{0}" />
+            <condition attribute="cgi_namesv" operator="like" value="{0}" />
+          </filter>
+          <attribute name="territoryid" />
+          <attribute name="cgi_namesv" />
+          <attribute name="parentterritoryid" />
+          <attribute name="cgi_municipalitycode" />
+          <attribute name="cgi_healthcaredistrictcode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Territory Quick Find View" languagecode="1033" />
+      <LocalizedName description="Alueiden pikahakunäkymä" languagecode="1035" />
+      <LocalizedName description="Snabbsökningsvy - område" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

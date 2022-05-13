@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d694b5db-a1dc-4ce1-9e7b-c05d8d9cfbee}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="territories" jump="name" select="1" icon="1" preview="1">
+        <row name="territory" id="territoryid">
+          <cell name="name" width="300" />
+          <cell name="createdon" width="100" />
+          <cell name="createdby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="modifiedby" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="territory">
+          <attribute name="name" />
+          <attribute name="territoryid" />
+          <order attribute="name" descending="false" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="createdon" />
+          <attribute name="createdby" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Territory Associated View" languagecode="1033" />
+      <LocalizedName description="Alueiden liitetty näkymä" languagecode="1035" />
+      <LocalizedName description="Associerad vy för områden" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

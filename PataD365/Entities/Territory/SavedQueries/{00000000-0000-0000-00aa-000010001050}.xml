@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001050}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid name="territories" jump="name" select="1" icon="1" preview="1">
+        <row name="territory" id="territoryid">
+          <cell name="name" width="300" />
+          <cell name="cgi_namesv" width="100" />
+          <cell name="parentterritoryid" width="100" />
+          <cell name="cgi_municipalitycode" width="100" />
+          <cell name="cgi_healthcaredistrictcode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="territory">
+          <attribute name="name" />
+          <attribute name="territoryid" />
+          <order attribute="name" descending="false" />
+          <attribute name="parentterritoryid" />
+          <attribute name="cgi_municipalitycode" />
+          <attribute name="cgi_healthcaredistrictcode" />
+          <attribute name="cgi_namesv" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Territories" languagecode="1033" />
+      <LocalizedName description="Kaikki alueet" languagecode="1035" />
+      <LocalizedName description="Alla områden" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
