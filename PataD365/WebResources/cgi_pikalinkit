@@ -1,0 +1,62 @@
+<html><head><style>
+
+.pikalinkit-header {
+    padding: 10px 14px 10px 8px;
+    height: 20px;
+    border-bottom: 1px solid #edebe9;
+    justify-content: space-between;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'SegoeUI', 'Segoe UI';
+    }
+   
+    
+.linkit {
+    text-align: left;
+    height: 40px;
+    width: 200px;
+    border: 2px solid #EBF3FF;
+    border-radius: 2px;
+    background-color: white;
+    border-left: 3px solid #1F53CD;
+    color: #1F53CD;
+    font-weight: bold;
+    transition: 0.1s;
+    background: white url(cgi_ExternalLink) right no-repeat;
+    padding-right: 30px;
+    margin-left: 0.5%;
+    background-position: 95% 50%;
+    background-size: 12px;
+    }
+    
+.linkdiv {
+	margin-bottom: 3px;
+	}
+    
+    
+.linkit:hover{
+    border-left: 3px solid #1F53CD;
+    cursor: pointer;
+    background-color: #F5F9FF;
+    border: 2px solid #EBF3FF;
+    border-radius: 2px;
+    }
+    
+</style>
+
+<meta charset="utf-8" /></head><body style="word-wrap: break-word;" onfocusout="parent.setEmailRange();">
+<h1 class="pikalinkit-header">Pikalinkit</h1>
+	<div class="linkdiv">
+   		<input class="linkit" type="button" onclick="window.open('https://www.duodecim.fi/')" ;="" value="Duodecim">
+   	</div>
+   	<div class="linkdiv">
+   		<input class="linkit" type="button" onclick="window.open('https://www.kaypahoito.fi/')" ;="" value="Käypä hoito">
+   	<div>
+ </div>
+</div>
+
+
+
+</body></html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{d7da0db2-bbc2-eb11-bacc-0022487f3655}</WebResourceId>
+  <Name>cgi_/Common/Common.js</Name>
+  <DisplayName>cgi_/Common/Common.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cgi_CommonCommonjsD7DA0DB2-BBC2-EB11-BACC-0022487F3655</FileName>
+</WebResource>

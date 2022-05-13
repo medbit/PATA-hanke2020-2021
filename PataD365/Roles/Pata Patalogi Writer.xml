@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{18437788-a047-ec11-8c62-000d3a44d509}" name="Pata Patalogi Writer" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendcgi_article" level="Deep" />
+    <RolePrivilege name="prvAppendcgi_Service" level="Deep" />
+    <RolePrivilege name="prvAppendcgi_ServiceNotification" level="Deep" />
+    <RolePrivilege name="prvAppendcgi_ServicePlace" level="Deep" />
+    <RolePrivilege name="prvAppendcgi_servicetype" level="Deep" />
+    <RolePrivilege name="prvAppendNote" level="Deep" />
+    <RolePrivilege name="prvAppendTocgi_article" level="Deep" />
+    <RolePrivilege name="prvAppendTocgi_ownerorganization" level="Deep" />
+    <RolePrivilege name="prvAppendTocgi_Service" level="Deep" />
+    <RolePrivilege name="prvAppendTocgi_ServiceNotification" level="Deep" />
+    <RolePrivilege name="prvAppendTocgi_ServicePlace" level="Deep" />
+    <RolePrivilege name="prvAppendTocgi_servicetype" level="Deep" />
+    <RolePrivilege name="prvAppendToTerritory" level="Global" />
+    <RolePrivilege name="prvAssigncgi_article" level="Deep" />
+    <RolePrivilege name="prvAssigncgi_Service" level="Deep" />
+    <RolePrivilege name="prvAssigncgi_ServiceNotification" level="Deep" />
+    <RolePrivilege name="prvAssigncgi_ServicePlace" level="Deep" />
+    <RolePrivilege name="prvAssigncgi_servicetype" level="Deep" />
+    <RolePrivilege name="prvAssignNote" level="Deep" />
+    <RolePrivilege name="prvCreatecgi_article" level="Deep" />
+    <RolePrivilege name="prvCreatecgi_Service" level="Deep" />
+    <RolePrivilege name="prvCreatecgi_ServiceNotification" level="Deep" />
+    <RolePrivilege name="prvCreatecgi_ServicePlace" level="Deep" />
+    <RolePrivilege name="prvCreatecgi_servicetype" level="Deep" />
+    <RolePrivilege name="prvCreatemsdyn_richtextfile" level="Deep" />
+    <RolePrivilege name="prvCreateNote" level="Deep" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeletemsdyn_richtextfile" level="Deep" />
+    <RolePrivilege name="prvDeleteNote" level="Deep" />
+    <RolePrivilege name="prvReadcgi_article" level="Global" />
+    <RolePrivilege name="prvReadcgi_ownerorganization" level="Global" />
+    <RolePrivilege name="prvReadcgi_Service" level="Global" />
+    <RolePrivilege name="prvReadcgi_ServiceNotification" level="Global" />
+    <RolePrivilege name="prvReadcgi_ServicePlace" level="Global" />
+    <RolePrivilege name="prvReadcgi_servicetype" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_richtextfile" level="Global" />
+    <RolePrivilege name="prvReadNote" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvReadTerritory" level="Global" />
+    <RolePrivilege name="prvWritecgi_article" level="Deep" />
+    <RolePrivilege name="prvWritecgi_Service" level="Deep" />
+    <RolePrivilege name="prvWritecgi_ServiceNotification" level="Deep" />
+    <RolePrivilege name="prvWritecgi_ServicePlace" level="Deep" />
+    <RolePrivilege name="prvWritecgi_servicetype" level="Deep" />
+    <RolePrivilege name="prvWritemsdyn_richtextfile" level="Deep" />
+    <RolePrivilege name="prvWriteNote" level="Deep" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>
