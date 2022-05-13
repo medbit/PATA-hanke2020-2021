@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="cgi_EnvironmentUrl">
+  <displayname default="Environment Url">
+    <label description="Environment Url" languagecode="1033" />
+    <label description="Environment Url" languagecode="1035" />
+  </displayname>
+  <introducedversion>1.3.2.1</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

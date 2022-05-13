@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FieldSecurityProfiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FieldSecurityProfile name="Suojausprofiili_laaja" description="Suojausprofiili jossa Read ja Update oikeudet Turvakielto ja Voimassa asti -kenttiin." fieldsecurityprofileid="{ffd4cc59-3eae-eb11-8236-002248804aa7}">
+    <FieldPermissions>
+      <FieldPermission>
+        <EntityName>contact</EntityName>
+        <AttributeName>cgi_validuntil</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>0</CanCreate>
+      </FieldPermission>
+      <FieldPermission>
+        <EntityName>contact</EntityName>
+        <AttributeName>cgi_nondisclosure</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>4</CanUpdate>
+        <CanCreate>0</CanCreate>
+      </FieldPermission>
+    </FieldPermissions>
+  </FieldSecurityProfile>
+  <FieldSecurityProfile name="Suojausprofiili_suppea" description="Suojausprofiili jossa Read-oikeus Turvakielto ja Voimassa asti -kenttiin." fieldsecurityprofileid="{c9969122-3eae-eb11-8236-002248804aa7}">
+    <FieldPermissions>
+      <FieldPermission>
+        <EntityName>contact</EntityName>
+        <AttributeName>cgi_validuntil</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>0</CanUpdate>
+        <CanCreate>0</CanCreate>
+      </FieldPermission>
+      <FieldPermission>
+        <EntityName>contact</EntityName>
+        <AttributeName>cgi_nondisclosure</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>0</CanUpdate>
+        <CanCreate>0</CanCreate>
+      </FieldPermission>
+    </FieldPermissions>
+  </FieldSecurityProfile>
+</FieldSecurityProfiles>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityMap>
+    <EntitySource>incident</EntitySource>
+    <EntityTarget>cgi_furtherguidance</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>cgi_classificationofcontact</AttributeSource>
+        <AttributeTarget>cgi_classificationofcontact</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

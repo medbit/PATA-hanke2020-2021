@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_language" localizedName="Language" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Language" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Finnish" languagecode="1033" />
+        <label description="Suomi" languagecode="1035" />
+        <label description="Finska" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Swedish " languagecode="1033" />
+        <label description="Ruotsi" languagecode="1035" />
+        <label description="Svenska" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="English" languagecode="1033" />
+        <label description="Englanti" languagecode="1035" />
+        <label description="Engelska" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

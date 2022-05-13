@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_organizationtype" localizedName="Organization type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Organization type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Regional cooperation organization" languagecode="1033" />
+        <label description="Alueellinen yhteistoimintaorganisaatio" languagecode="1035" />
+        <label description="Regional samarbetsorgainsation" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Municipality" languagecode="1033" />
+        <label description="Kunta" languagecode="1035" />
+        <label description="Kommun" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="State" languagecode="1033" />
+        <label description="Valtio" languagecode="1035" />
+        <label description="Stat" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050003">
+      <labels>
+        <label description="Organizations and communities" languagecode="1033" />
+        <label description="Järjestöt ja yhteisöt" languagecode="1035" />
+        <label description="Föreningar och samfund" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050004">
+      <labels>
+        <label description="Companies" languagecode="1033" />
+        <label description="Yritykset" languagecode="1035" />
+        <label description="Företag" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,13 @@
+<environmentvariabledefinition schemaname="cgi_EnvironmentName">
+  <defaultvalue>UNDEFINED</defaultvalue>
+  <description default="DEV, TEST, UAT, PROD">
+    <label description="DEV, TEST, UAT, PROD" languagecode="1033" />
+  </description>
+  <displayname default="Environment Name">
+    <label description="Environment Name" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.1.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <type>100000000</type>
+</environmentvariabledefinition>

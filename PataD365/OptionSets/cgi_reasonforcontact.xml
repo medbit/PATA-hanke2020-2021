@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_reasonforcontact" localizedName="Reason for contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.6</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Reason for contact" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Social Services" languagecode="1033" />
+        <label description="Sosiaalihuolto" languagecode="1035" />
+        <label description="Sociala tjänster" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Health Services" languagecode="1033" />
+        <label description="Terveydenhuolto" languagecode="1035" />
+        <label description="Hälso tjänster" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="Other" languagecode="1033" />
+        <label description="Muu" languagecode="1035" />
+        <label description="Övrig" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

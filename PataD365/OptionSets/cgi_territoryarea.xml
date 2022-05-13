@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_territoryarea" localizedName="Territory Area" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Territory Area" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Whole country" languagecode="1033" />
+        <label description="Koko maa" languagecode="1035" />
+        <label description="Hela landet" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Whole country except Åland" languagecode="1033" />
+        <label description="Koko maa paitsi ei Ahvenanmaa" languagecode="1035" />
+        <label description="Hela landet utom Åland" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="Restricted area" languagecode="1033" />
+        <label description="Rajattu alue" languagecode="1035" />
+        <label description="Begränsat område" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

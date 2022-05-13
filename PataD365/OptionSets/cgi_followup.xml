@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_followup" localizedName="Follow -up" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Follow -up" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000" ExternalValue="" Color="">
+      <labels>
+        <label description="Appointment" languagecode="1033" />
+        <label description="Tidsbokning" languagecode="1053" />
+        <label description="Ajanvaraus" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050001" ExternalValue="" Color="">
+      <labels>
+        <label description="Counseling and guidance" languagecode="1033" />
+        <label description="Rådgivning och handledning" languagecode="1053" />
+        <label description="Neuvonta ja ohjaus" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Initiate" languagecode="1033" />
+        <label description="Vireille pano" languagecode="1035" />
+        <label description="Inleda" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050002" ExternalValue="" Color="">
+      <labels>
+        <label description="Other" languagecode="1033" />
+        <label description="Annan" languagecode="1053" />
+        <label description="Muu" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Queue" languagecode="1033" />
+        <label description="Jono" languagecode="1035" />
+        <label description="Kö" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

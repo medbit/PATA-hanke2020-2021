@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_servicechanneltype" localizedName="Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Online" languagecode="1033" />
+        <label description="Verkkoasiointi" languagecode="1035" />
+        <label description="E-tjänst" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Printable form" languagecode="1033" />
+        <label description="Tulostettava lomake" languagecode="1035" />
+        <label description="Utskrivbar blankett" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="Web page" languagecode="1033" />
+        <label description="Sähköinen asiointi" languagecode="1035" />
+        <label description="Webbsida" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050003">
+      <labels>
+        <label description="Phone service" languagecode="1033" />
+        <label description="Puhelinpalvelu" languagecode="1035" />
+        <label description="Telefontjänst" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050004">
+      <labels>
+        <label description="Service place" languagecode="1033" />
+        <label description="Palvelupaikka" languagecode="1035" />
+        <label description="Serviceställe" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

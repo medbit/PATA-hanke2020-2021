@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_detailedreasonforcontact" localizedName="Detailed Reason for Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.6</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Detailed Reason for Contact" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Counseling and guidance" languagecode="1033" />
+        <label description="Neuvonta, ohjaus" languagecode="1035" />
+        <label description="Rådgivning och vägledning" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Evaluation for need of treatment" languagecode="1033" />
+        <label description="Hoidontarpeen arvionti" languagecode="1035" />
+        <label description="Utvärdering av behandlingsbehov" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Appointment" languagecode="1033" />
+        <label description="Ajanvaraus" languagecode="1035" />
+        <label description="Utnämning" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Notice of need for services" languagecode="1033" />
+        <label description="Ilmoitus palvelutarpeesta" languagecode="1035" />
+        <label description="Meddelande om behov av tjänster" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Analysis of need for services" languagecode="1033" />
+        <label description="Palvelutarpeen arviointi" languagecode="1035" />
+        <label description="Analys av behov av tjänster" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050005" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Application" languagecode="1033" />
+        <label description="Hakemus" languagecode="1035" />
+        <label description="Ansökan" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050006" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Crisis situation" languagecode="1033" />
+        <label description="Kriisitilanne" languagecode="1035" />
+        <label description="Krisläge" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050007" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Other" languagecode="1033" />
+        <label description="Muu syy" languagecode="1035" />
+        <label description="Övrig" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050008" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Services" languagecode="1033" />
+        <label description="Palveluihin liittyvä asia" languagecode="1035" />
+        <label description="Tjänster" languagecode="1053" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

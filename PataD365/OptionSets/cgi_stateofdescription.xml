@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_stateofdescription" localizedName="State of description" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="State of description" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Published" languagecode="1033" />
+        <label description="Julkaistu" languagecode="1035" />
+        <label description="Publicerad" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Draft" languagecode="1033" />
+        <label description="Luonnos" languagecode="1035" />
+        <label description="Utkast" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="Archived" languagecode="1033" />
+        <label description="Arkistoitu" languagecode="1035" />
+        <label description="Arkiverad" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

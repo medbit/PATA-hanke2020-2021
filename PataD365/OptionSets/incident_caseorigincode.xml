@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="incident_caseorigincode" localizedName="Case Origin" description="Information that specifies the source of the case information, such as Web, telephone, or email." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>6.1.0.0</IntroducedVersion>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Case Origin" languagecode="1033" />
+    <displayname description="Palvelupyynnön alkuperä" languagecode="1035" />
+    <displayname description="Ärendets ursprung" languagecode="1053" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Information that specifies the source of the case information, such as Web, telephone, or email." languagecode="1033" />
+    <Description description="Tiedot palvelupyynnön tietojen lähteestä (esimerkiksi WWW, puhelin tai sähköposti)." languagecode="1035" />
+    <Description description="Information som anger ärendeinformationens källa, till exempel Internet, telefon eller e-post." languagecode="1053" />
+  </Descriptions>
+  <options>
+    <option value="1" Color="#FCD116">
+      <labels>
+        <label description="Phone" languagecode="1033" />
+        <label description="Telefonnummer" languagecode="1053" />
+        <label description="Puhelin" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="2" Color="#00B294">
+      <labels>
+        <label description="Email" languagecode="1033" />
+        <label description="E-post" languagecode="1053" />
+        <label description="Sähköposti" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="3" Color="#FF8C00">
+      <labels>
+        <label description="Web" languagecode="1033" />
+        <label description="Webb" languagecode="1053" />
+        <label description="WWW" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="2483" Color="#0086FF">
+      <labels>
+        <label description="Facebook" languagecode="1033" />
+        <label description="Facebook" languagecode="1053" />
+        <label description="Facebook" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="3986" Color="#0086FF">
+      <labels>
+        <label description="Twitter" languagecode="1033" />
+        <label description="Twitter" languagecode="1053" />
+        <label description="Twitter" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Chat" languagecode="1033" />
+        <label description="Chat" languagecode="1053" />
+        <label description="Chat" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="SMS" languagecode="1033" />
+        <label description="SMS" languagecode="1053" />
+        <label description="SMS" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="285050003">
+      <labels>
+        <label description="Appointment" languagecode="1033" />
+        <label description="Besök " languagecode="1053" />
+        <label description="Käynti " languagecode="1035" />
+      </labels>
+    </option>
+    <option value="700610000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="IoT" languagecode="1033" />
+        <label description="IoT" languagecode="1053" />
+        <label description="IoT" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+        <Description description="" languagecode="1035" />
+        <Description description="" languagecode="1053" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

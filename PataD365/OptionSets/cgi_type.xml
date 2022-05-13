@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_type" localizedName="Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Normal (week day)" languagecode="1033" />
+        <label description="normaali palveluaika (viikonpäivä)" languagecode="1035" />
+        <label description="Normal tjänstetid (veckodag)" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Normal (over the clock)" languagecode="1033" />
+        <label description="normaali palveluaika (vuorokauden yli)" languagecode="1035" />
+        <label description="Normal tjänstetid (dygnet runt)" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="Abnormal service time" languagecode="1033" />
+        <label description="poikkeava palveluaika" languagecode="1035" />
+        <label description="Avvikande tjänstetid" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_beginningfromweekday" localizedName="Weekdays" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Weekdays" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Monday" languagecode="1033" />
+        <label description="maanantai" languagecode="1035" />
+        <label description="måndag" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Tuesday" languagecode="1033" />
+        <label description="tiistai" languagecode="1035" />
+        <label description="tisdag" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="Wednesday" languagecode="1033" />
+        <label description="keskiviikko" languagecode="1035" />
+        <label description="onsdag" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050003">
+      <labels>
+        <label description="Thursday" languagecode="1033" />
+        <label description="torstai" languagecode="1035" />
+        <label description="torsdag" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050004">
+      <labels>
+        <label description="Friday" languagecode="1033" />
+        <label description="perjantai" languagecode="1035" />
+        <label description="fredag" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050005">
+      <labels>
+        <label description="Saturday" languagecode="1033" />
+        <label description="lauantai" languagecode="1035" />
+        <label description="lördag" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050006">
+      <labels>
+        <label description="Sunday" languagecode="1033" />
+        <label description="sunnuntai" languagecode="1035" />
+        <label description="söndag" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

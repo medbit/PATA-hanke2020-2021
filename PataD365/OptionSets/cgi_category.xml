@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_category" localizedName="Category (articles)" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.3</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Category (articles)" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Booking Instructions" languagecode="1033" />
+        <label description="Anvisningar för tidsbokning" languagecode="1053" />
+        <label description="Ajanvarausohje" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050001" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Operating model" languagecode="1033" />
+        <label description="Verksamhetsmodell" languagecode="1053" />
+        <label description="Toimintamalli" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050002" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Office Instructions" languagecode="1033" />
+        <label description="Verksamhetspunktens anvisningar" languagecode="1053" />
+        <label description="Toimipisteen ohje" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050003" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Care Instructions" languagecode="1033" />
+        <label description="Vårdanvisning" languagecode="1053" />
+        <label description="Hoito-ohje" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="285050004" ExternalValue="" Color="#0000ff">
+      <labels>
+        <label description="Form" languagecode="1033" />
+        <label description="Blankett" languagecode="1053" />
+        <label description="Lomake" languagecode="1035" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

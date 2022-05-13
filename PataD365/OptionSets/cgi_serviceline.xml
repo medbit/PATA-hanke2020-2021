@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_serviceline" localizedName="Service Line" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.6</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Service Line" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Service for the Elderly" languagecode="1033" />
+        <label description="Iäkkäiden palvelut" languagecode="1035" />
+        <label description="Service för äldre" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Service for the family with children" languagecode="1033" />
+        <label description="Lapsiperheiden palvelut" languagecode="1035" />
+        <label description="Service för barnfamiljen" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="Child Welfare Services" languagecode="1033" />
+        <label description="Lastensuojelu" languagecode="1035" />
+        <label description="Barnskyddstjänster" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050003">
+      <labels>
+        <label description="Family Law Services" languagecode="1033" />
+        <label description="Perheoikeudelliset palvelut" languagecode="1035" />
+        <label description="Familjerättstjänster" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050004">
+      <labels>
+        <label description="Services for substance abuse" languagecode="1033" />
+        <label description="Päihdehuolto" languagecode="1035" />
+        <label description="Tjänster för missbruk" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050005">
+      <labels>
+        <label description="Services for working-age" languagecode="1033" />
+        <label description="Työikäisten palvelut" languagecode="1035" />
+        <label description="Tjänster för arbetsför ålder" languagecode="1053" />
+      </labels>
+    </option>
+    <option value="285050006">
+      <labels>
+        <label description="Services for the disabled" languagecode="1033" />
+        <label description="Vammaispalvelut" languagecode="1035" />
+        <label description="Tjänster för funktionshindrade" languagecode="1053" />
+      </labels>
+    </option>
+  </options>
+</optionset>

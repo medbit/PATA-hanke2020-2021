@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="cgi_role" localizedName="Role of contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Role of contact" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="285050000">
+      <labels>
+        <label description="Citizen" languagecode="1033" />
+        <label description="Medborgaren själv" languagecode="1053" />
+        <label description="Kansalainen itse" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="285050001">
+      <labels>
+        <label description="Anonymous contact" languagecode="1033" />
+        <label description="Anonum kontakt" languagecode="1053" />
+        <label description="Anonyymi yhteydenotto" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="285050002">
+      <labels>
+        <label description="Relative" languagecode="1033" />
+        <label description="Närstående" languagecode="1053" />
+        <label description="Omainen" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="285050003">
+      <labels>
+        <label description="Authority" languagecode="1033" />
+        <label description="Myndighet" languagecode="1053" />
+        <label description="Viranomainen" languagecode="1035" />
+      </labels>
+    </option>
+    <option value="285050004">
+      <labels>
+        <label description="Other" languagecode="1033" />
+        <label description="Annan" languagecode="1053" />
+        <label description="Muu" languagecode="1035" />
+      </labels>
+    </option>
+  </options>
+</optionset>
