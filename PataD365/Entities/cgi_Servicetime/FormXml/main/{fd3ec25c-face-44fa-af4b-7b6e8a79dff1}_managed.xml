@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fd3ec25c-face-44fa-af4b-7b6e8a79dff1}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{0aa7de5d-8f24-4b07-b6b9-406818e6d623}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Yleiset" languagecode="1035" />
+            <label description="Allmänt" languagecode="1053" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{47c99772-a703-47da-8d3b-13af90e298b3}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Yleiset" languagecode="1035" />
+                    <label description="Allmänt" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f657833d-56c8-4eaa-8f7c-597aa4550e5d}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                          <label description="Palveluajan nimi" languagecode="1035" />
+                          <label description="Name" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e107a0fe-9203-4abc-9736-600071991f24}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Omistaja" languagecode="1035" />
+                          <label description="Ägare" languagecode="1053" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ecbab725-8744-467b-a33e-61b2915d1b82}" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Contact Information" languagecode="1033" />
+                          <label description="Yhteydenotto info" languagecode="1035" />
+                          <label description="Contact Information" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_contactinformation" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cgi_contactinformation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{99dd5233-38ac-4d2d-98a2-45c34f816f2c}" locklevel="0" rowspan="2">
+                        <labels>
+                          <label description="Location specification" languagecode="1033" />
+                          <label description="Sijainnin tarkennus" languagecode="1035" />
+                          <label description="Location specification" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_locationspecification" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cgi_locationspecification" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row>
+                      <cell id="{c49693e1-c8e9-07cd-1815-ed12d3593895}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service Catalog" languagecode="1033" />
+                          <label description="Palvelukatalogi" languagecode="1035" />
+                          <label description="Service Catalog" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_servicecatalogid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cgi_servicecatalogid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca8d0312-015e-5156-4966-7e58439c28a9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Service Channel" languagecode="1033" />
+                          <label description="Asiointikanava" languagecode="1035" />
+                          <label description="Service Channel" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_servicechannelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cgi_servicechannelid" disabled="false" uniqueid="{7c7b3757-221b-b695-be43-788719056000}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9D033519-6D03-4F59-A0D6-1D8F6DDB5559}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c150736-ca34-4d32-a717-7e0e81d6cdda}" locklevel="0">
+                        <labels>
+                          <label description="Organization" languagecode="1033" />
+                        </labels>
+                        <control id="cgi_organizationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cgi_organizationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6bf87078-bf63-40da-b2b4-c486f90829dd}" locklevel="0" showlabel="true" rowspan="20">
+                        <labels>
+                          <label description="Servicetime info" languagecode="1033" />
+                          <label description="Palveluajan lisätieto" languagecode="1035" />
+                          <label description="Servicetime info" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_servicetimeinfo" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cgi_servicetimeinfo" disabled="false" uniqueid="{a98dd992-6ccc-206d-b0de-e9bae1315783}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{02a44700-2896-5d46-4827-c7bc335a1304}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ending time" languagecode="1033" />
+                          <label description="Päättymisajankohta" languagecode="1035" />
+                          <label description="Ending time" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_endhour" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cgi_endhour" disabled="false" uniqueid="{015c07c3-0289-3123-da82-877ead0d61b8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2609198c-374a-4ea9-9637-4415a05c5173}" locklevel="0">
+                        <labels>
+                          <label description="Valid for the time being" languagecode="1033" />
+                          <label description="Voimassa toistaiseksi" languagecode="1035" />
+                          <label description="Valid for the time being" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_validforthetimebeing" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cgi_validforthetimebeing" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{27f68407-6d1a-4569-a9c6-598a24537672}" locklevel="0">
+                        <labels>
+                          <label description="Closed" languagecode="1033" />
+                          <label description="Suljettu" languagecode="1035" />
+                          <label description="Closed" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_closed" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cgi_closed" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{586f1799-a5b0-432b-bacf-117ecb4c37ce}" locklevel="0">
+                        <labels>
+                          <label description="Always open" languagecode="1033" />
+                          <label description="Aina avoinna" languagecode="1035" />
+                          <label description="Always open" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_alwaysopen" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cgi_alwaysopen" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be689bea-866f-4f3d-a876-d0bf3f58f417}" locklevel="0">
+                        <labels>
+                          <label description="Open by appointment" languagecode="1033" />
+                          <label description="Avoinna ajanvarauksella" languagecode="1035" />
+                          <label description="Open by appointment" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_openbyappointment" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cgi_openbyappointment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2878cc14-11e0-4c0c-b259-6b69f3892427}" locklevel="0">
+                        <labels>
+                          <label description="Beginning from (weekday)" languagecode="1033" />
+                          <label description="Alkamispäivä" languagecode="1035" />
+                          <label description="Beginning from (weekday)" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_beginningfromweekday" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cgi_beginningfromweekday" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3ee73e1-5a70-44ca-9180-6c9f02fc9d8b}" locklevel="0">
+                        <labels>
+                          <label description="End to (weekday)" languagecode="1033" />
+                          <label description="Päättymispäivä" languagecode="1035" />
+                          <label description="End to (weekday)" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_endtoweekday" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cgi_endtoweekday" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{fb869eeb-3f8c-4406-991d-51bea6dd1b4d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{48cf9167-2e9b-45f7-b85c-3231fdfb83ae}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{92498337-1a87-4fb6-9bf1-eb7457b7b3b2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3f73ab3d-1962-414a-91bb-9108a6a0ce98}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d5b58d48-4583-4c7b-b3f7-85d8426449c1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6a2edf09-2ad1-421e-8b09-7c21bf5162ff}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b09efc7d-1bc2-43dc-9391-e7f6d82b6b86}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d5a93cc2-3158-427f-84fb-989c71855172}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{62807921-71aa-c3d5-c338-8c47aa24d64a}">
+          <customControl id="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>cgi_starthour</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="driv_DR.TimePicker">
+            <parameters>
+              <hourvalue>cgi_starthour</hourvalue>
+              <minutevalue>cgi_startminute</minutevalue>
+              <displaytype static="true" type="Enum">24 hrs</displaytype>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="driv_DR.TimePicker">
+            <parameters>
+              <hourvalue>cgi_starthour</hourvalue>
+              <minutevalue>cgi_startminute</minutevalue>
+              <displaytype static="true" type="Enum">24 hrs</displaytype>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="driv_DR.TimePicker">
+            <parameters>
+              <hourvalue>cgi_starthour</hourvalue>
+              <minutevalue>cgi_startminute</minutevalue>
+              <displaytype static="true" type="Enum">24 hrs</displaytype>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{015c07c3-0289-3123-da82-877ead0d61b8}">
+          <customControl id="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>cgi_endhour</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="driv_DR.TimePicker">
+            <parameters>
+              <hourvalue>cgi_endhour</hourvalue>
+              <minutevalue>cgi_endminute</minutevalue>
+              <displaytype static="true" type="Enum">24 hrs</displaytype>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="driv_DR.TimePicker">
+            <parameters>
+              <hourvalue>cgi_endhour</hourvalue>
+              <minutevalue>cgi_endminute</minutevalue>
+              <displaytype static="true" type="Enum">24 hrs</displaytype>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="driv_DR.TimePicker">
+            <parameters>
+              <hourvalue>cgi_endhour</hourvalue>
+              <minutevalue>cgi_endminute</minutevalue>
+              <displaytype static="true" type="Enum">24 hrs</displaytype>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

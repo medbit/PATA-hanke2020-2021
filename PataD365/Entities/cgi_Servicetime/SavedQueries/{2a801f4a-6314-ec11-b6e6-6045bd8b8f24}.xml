@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{2a801f4a-6314-ec11-b6e6-6045bd8b8f24}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_name" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_servicetimeid">
+          <cell name="cgi_servicecatalogid" width="189" />
+          <cell name="cgi_servicechannelid" width="175" />
+          <cell name="a_6d6f96df35d948c0a74888e407504d11.cgi_postoffice" width="116" />
+          <cell name="cgi_name" width="200" />
+          <cell name="cgi_organizationid" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cgi_servicetime">
+          <attribute name="cgi_name" />
+          <attribute name="cgi_servicetimeid" />
+          <attribute name="cgi_servicechannelid" />
+          <attribute name="cgi_servicecatalogid" />
+          <link-entity alias="a_6d6f96df35d948c0a74888e407504d11" name="cgi_servicechannel" to="cgi_servicechannelid" from="cgi_servicechannelid" link-type="outer" visible="false">
+            <attribute name="cgi_postoffice" />
+          </link-entity>
+          <attribute name="cgi_organizationid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.11</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Patalogi Service Times" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

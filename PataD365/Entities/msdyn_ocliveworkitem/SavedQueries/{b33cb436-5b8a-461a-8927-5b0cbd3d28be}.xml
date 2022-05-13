@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b33cb436-5b8a-461a-8927-5b0cbd3d28be}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="subject" select="1" icon="1" preview="1">
+        <row name="msdyn_ocliveworkitem" id="activityid">
+          <cell name="subject" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_ocliveworkitem">
+          <attribute name="activityid" />
+          <attribute name="subject" />
+          <attribute name="createdon" />
+          <order attribute="subject" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>0</value>
+              <value>3</value>
+            </condition>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Conversation Associated View" languagecode="1033" />
+      <LocalizedName description="Keskustelun liitetty näkymä" languagecode="1035" />
+      <LocalizedName description="Associerad vy för konversation" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

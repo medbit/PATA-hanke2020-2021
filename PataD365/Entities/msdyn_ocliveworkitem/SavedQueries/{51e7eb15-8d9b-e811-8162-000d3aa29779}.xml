@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{51e7eb15-8d9b-e811-8162-000d3aa29779}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" preview="1" icon="1">
+        <row name="result" id="activityid">
+          <cell name="subject" width="150" />
+          <cell name="msdyn_activeagentid" width="100" />
+          <cell name="msdyn_customer" width="100" />
+          <cell name="msdyn_liveworkstreamid" width="100" />
+          <cell name="prioritycode" width="100" />
+          <cell name="msdyn_cdsqueueid" width="100" />
+          <cell name="statuscode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_ocliveworkitem">
+          <attribute name="subject" />
+          <attribute name="statuscode" />
+          <attribute name="msdyn_cdsqueueid" />
+          <attribute name="prioritycode" />
+          <attribute name="msdyn_liveworkstreamid" />
+          <attribute name="msdyn_customer" />
+          <attribute name="msdyn_activeagentid" />
+          <order attribute="subject" descending="false" />
+          <filter type="and">
+            <condition attribute="msdyn_activeagentid" operator="eq-userid" />
+            <condition attribute="statecode" operator="ne" value="1" />
+          </filter>
+          <attribute name="activityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My work items" languagecode="1033" />
+      <LocalizedName description="Omat työnimikkeet" languagecode="1035" />
+      <LocalizedName description="Mina arbetsuppgifter" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows the work items that are assigned to the current user" languagecode="1033" />
+      <Description description="Näyttää työnimikkeet, jotka on määritetty nykyiselle käyttäjälle" languagecode="1035" />
+      <Description description="Visar arbetsuppgifterna som är tilldelade till den aktuella användaren" languagecode="1053" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

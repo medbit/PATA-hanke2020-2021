@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{db0d8352-ded9-4ae6-89fa-42ae949e7bf5}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{79231f67-71e8-4071-948c-dd1e53576c5f}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4329247b-33d3-42e8-9481-adb3e772c350}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{6a6bb38e-8500-469e-a3d1-91e3d01b9e23}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Subject" languagecode="1033" solutionaction="Added" />
+                          <label description="Ämne" languagecode="1053" solutionaction="Added" />
+                          <label description="Aihe" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d496f737-e575-4451-9a15-42436131ac41}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Regarding" languagecode="1033" solutionaction="Added" />
+                          <label description="Ämne" languagecode="1053" solutionaction="Added" />
+                          <label description="Liittyy" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a4e89fe-7311-4efa-a5d7-f38eea551d18}" ordinalvalue="10002">
+                        <labels>
+                          <label description="State" languagecode="1033" solutionaction="Added" />
+                          <label description="Tillstånd" languagecode="1053" solutionaction="Added" />
+                          <label description="Tila" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f7b290f1-5f35-488d-81f6-2dda052cbd0a}" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{58ce4033-8765-406e-89c7-bbf4dd69553b}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Priority" languagecode="1033" solutionaction="Added" />
+                          <label description="Prioritet" languagecode="1053" solutionaction="Added" />
+                          <label description="Prioriteetti" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2ec5cb31-6581-4377-933f-2f6ac47a00a7}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" solutionaction="Added" />
+                          <label description="Förfallodatum" languagecode="1053" solutionaction="Added" />
+                          <label description="Eräpäivä" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e61d5d4-727a-45b8-8ed0-b8adf134dd0b}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                          <label description="Ägare" languagecode="1053" solutionaction="Added" />
+                          <label description="Omistaja" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Tiedot" languagecode="1035" />
+      <LocalizedName description="Information" languagecode="1053" />
+    </LocalizedNames>
+  </systemform>
+</forms>

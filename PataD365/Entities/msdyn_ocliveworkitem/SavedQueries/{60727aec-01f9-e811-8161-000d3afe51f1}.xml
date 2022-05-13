@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{60727aec-01f9-e811-8161-000d3afe51f1}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" preview="1" icon="1">
+        <row name="result" id="activityid">
+          <cell name="msdyn_customer" width="100" imageproviderfunctionname="OmniChannelPackage.ConversationGridIconLib.Instance.customerFieldIconProvider" imageproviderwebresource="$webresource:msdyn_OcConversationGridIconLib.js" />
+          <cell name="subject" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msdyn_cdsqueueid" width="100" />
+          <cell name="msdyn_channel" width="100" disableSorting="1" />
+          <cell name="statuscode" width="100" imageproviderfunctionname="OmniChannelPackage.ConversationGridIconLib.Instance.statusFieldIconProvider" imageproviderwebresource="$webresource:msdyn_OcConversationGridIconLib.js" />
+          <cell name="msdyn_customersentimentlabel" width="100" imageproviderfunctionname="OmniChannelPackage.ConversationGridIconLib.Instance.sentimentFieldIconProvider" imageproviderwebresource="$webresource:msdyn_OcConversationGridIconLib.js" />
+          <cell name="msdyn_createdon" width="100" />
+          <cell name="msdyn_liveworkstreamid" width="100" />
+          <cell name="msdyn_activeagentid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_ocliveworkitem">
+          <attribute name="subject" />
+          <order attribute="msdyn_createdon" descending="true" />
+          <filter type="and">
+            <condition attribute="statuscode" operator="ne" value="4" />
+          </filter>
+          <attribute name="statuscode" />
+          <attribute name="msdyn_cdsqueueid" />
+          <attribute name="msdyn_liveworkstreamid" />
+          <attribute name="msdyn_customer" />
+          <attribute name="msdyn_createdon" />
+          <attribute name="msdyn_activeagentid" />
+          <attribute name="msdyn_customersentimentlabel" />
+          <attribute name="msdyn_channel" />
+          <attribute name="activityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Conversations" languagecode="1033" />
+      <LocalizedName description="Keskustelut" languagecode="1035" />
+      <LocalizedName description="Konversationer" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows conversations that are carried through Omnichannel" languagecode="1033" />
+      <Description description="Näyttää Monikanavan kautta käytävät keskustelut" languagecode="1035" />
+      <Description description="Visar konversationer som utförs via flera kanaler" languagecode="1053" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

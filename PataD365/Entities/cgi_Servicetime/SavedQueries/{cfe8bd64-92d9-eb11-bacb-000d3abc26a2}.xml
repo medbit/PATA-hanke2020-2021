@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{cfe8bd64-92d9-eb11-bacb-000d3abc26a2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_name" select="1" preview="1" icon="1">
+        <row name="result" id="cgi_servicetimeid">
+          <cell name="cgi_name" width="150" />
+          <cell name="cgi_servicecatalogid" width="100" />
+          <cell name="a_b0acd4861cafeb118236002248804395.cgi_postoffice" width="100" disableSorting="1" />
+          <cell name="cgi_servicechannelid" width="100" />
+          <cell name="a_acd08ea21dc5eb11bacc0022487f3655.cgi_organizationid" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cgi_servicetime">
+          <attribute name="cgi_name" />
+          <order attribute="cgi_name" descending="false" />
+          <attribute name="cgi_servicechannelid" />
+          <attribute name="cgi_servicecatalogid" />
+          <link-entity alias="a_b0acd4861cafeb118236002248804395" name="cgi_servicechannel" from="cgi_servicechannelid" to="cgi_servicechannelid" link-type="outer" visible="false">
+            <attribute name="cgi_postoffice" />
+          </link-entity>
+          <link-entity alias="a_acd08ea21dc5eb11bacc0022487f3655" name="cgi_servicecatalog" from="cgi_servicecatalogid" to="cgi_servicecatalogid" link-type="outer" visible="false">
+            <attribute name="cgi_organizationid" />
+          </link-entity>
+          <attribute name="cgi_servicetimeid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.7</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="PATAlog" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

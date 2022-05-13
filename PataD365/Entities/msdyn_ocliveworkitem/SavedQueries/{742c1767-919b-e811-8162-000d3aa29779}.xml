@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{742c1767-919b-e811-8162-000d3aa29779}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" preview="1" icon="1">
+        <row name="result" id="activityid">
+          <cell name="subject" width="150" />
+          <cell name="msdyn_activeagentid" width="100" />
+          <cell name="statecode" width="100" />
+          <cell name="msdyn_customer" width="100" />
+          <cell name="msdyn_liveworkstreamid" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="prioritycode" width="100" />
+          <cell name="msdyn_cdsqueueid" width="100" />
+          <cell name="msdyn_closedon" width="100" />
+          <cell name="msdyn_lastsessionid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msdyn_ocliveworkitem">
+          <attribute name="subject" />
+          <attribute name="msdyn_cdsqueueid" />
+          <attribute name="prioritycode" />
+          <attribute name="ownerid" />
+          <attribute name="msdyn_liveworkstreamid" />
+          <attribute name="msdyn_customer" />
+          <attribute name="statecode" />
+          <attribute name="msdyn_activeagentid" />
+          <order attribute="subject" descending="false" />
+          <filter type="and">
+            <condition attribute="msdyn_activeagentid" operator="eq-userid" />
+            <condition attribute="statuscode" operator="eq" value="4" />
+            <condition attribute="msdyn_closedon" operator="today" />
+            <filter type="or">
+              <condition attribute="msdyn_thirdpartyconversation" operator="eq" value="0" />
+              <condition attribute="msdyn_thirdpartyconversation" operator="null" />
+            </filter>
+          </filter>
+          <attribute name="msdyn_closedon" />
+          <attribute name="msdyn_lastsessionid" />
+          <attribute name="activityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Closed work items" languagecode="1033" />
+      <LocalizedName description="Suljetut työnimikkeet" languagecode="1035" />
+      <LocalizedName description="Stängda arbetsuppgifter" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows the work items that the current user closed in the last 24 hours" languagecode="1033" />
+      <Description description="Näyttää työnimikkeet, jotka nykyinen käyttäjä on sulkenut viimeisten 24 tunnin aikana" languagecode="1035" />
+      <Description description="Visar arbetsuppgifterna som den aktuella användaren stängt under det senaste dygnet" languagecode="1053" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

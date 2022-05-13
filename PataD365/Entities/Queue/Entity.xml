@@ -1,0 +1,1755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Queue" OriginalName="">Queue</Name>
+  <EntityInfo>
+    <entity Name="Queue">
+      <LocalizedNames>
+        <LocalizedName description="Queue" languagecode="1033" />
+        <LocalizedName description="Kö" languagecode="1053" />
+        <LocalizedName description="Jono" languagecode="1035" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Queues" languagecode="1033" />
+        <LocalizedCollectionName description="Köer" languagecode="1053" />
+        <LocalizedCollectionName description="Jonot" languagecode="1035" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="A list of records that require action, such as accounts, activities, and cases." languagecode="1033" />
+        <Description description="En lista med poster som kräver åtgärd, till exempel konton, aktiviteter och ärenden." languagecode="1053" />
+        <Description description="Luettelo toimintaa edellyttävistä tietueista, kuten asiakkaista, aktiviteeteista ja palvelupyynnöistä." languagecode="1035" />
+      </Descriptions>
+      <attributes>
+        <attribute PhysicalName="AllowEmailCredentials">
+          <Type>bit</Type>
+          <Name>allowemailcredentials</Name>
+          <LogicalName>allowemailcredentials</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_allowemailcredentials">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Allow credentials for the Email Router" languagecode="1033" />
+              <displayname description="Salli sähköpostireit. tunnistetiedot" languagecode="1035" />
+              <displayname description="Tillåt referenser för e-postrouter" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information about whether a user wants to specify email credentials for the email router." languagecode="1033" />
+              <Description description="Osoittaa, määrittääkö käyttäjä sähköpostin tunnistetiedot sähköpostireititintä varten." languagecode="1035" />
+              <Description description="Anger om en användare vill ange autentiseringsuppgifter för e-postroutern." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Nej" languagecode="1053" />
+                  <label description="Ei" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Ja" languagecode="1053" />
+                  <label description="Kyllä" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Allow to Use Credentials for Email Processing (Obsolete)" languagecode="1033" />
+            <displayname description="Tillåt att autentiseringsuppgifter används för e-postbearbetning (Inaktuell)" languagecode="1053" />
+            <displayname description="Salli tunnistetietojen käyttö sähköpostin käsittelyssä (vanhentunut)" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="This attribute is no longer used. The data is now in the Mailbox.AllowEmailConnectorToUseCredentials attribute." languagecode="1033" />
+            <Description description="Attributet används inte längre. Informationen finns nu i attributet Mailbox.AllowEmailConnectorToUseCredentials." languagecode="1053" />
+            <Description description="Tätä määritettä ei enää käytetä. Tiedot ovat nyt määritteessä Mailbox.AllowEmailConnectorToUseCredentials." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="cgi_queuesofwhichImamember">
+          <Type>lookup</Type>
+          <Name>cgi_queuesofwhichimamember</Name>
+          <LogicalName>cgi_queuesofwhichimamember</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.2</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Queues of which I'm a member" languagecode="1033" />
+            <displayname description="Queues of which I'm a member" languagecode="1053" />
+            <displayname description="Queues of which I'm a member" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1053" />
+            <Description description="" languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="CreatedBy">
+          <Type>lookup</Type>
+          <Name>createdby</Name>
+          <LogicalName>createdby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Created By" languagecode="1033" />
+            <displayname description="Skapad av" languagecode="1053" />
+            <displayname description="Luonut" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the user who created the queue record." languagecode="1033" />
+            <Description description="Unik identifierare för den användare som skapade köposten." languagecode="1053" />
+            <Description description="Jonotietueen luoneen käyttäjän yksilöllinen tunnus." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="CreatedOn">
+          <Type>datetime</Type>
+          <Name>createdon</Name>
+          <LogicalName>createdon</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <displaynames>
+            <displayname description="Created On" languagecode="1033" />
+            <displayname description="Skapad den" languagecode="1053" />
+            <displayname description="Luotu" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Date and time when the queue was created." languagecode="1033" />
+            <Description description="Datum och tid när kön skapades." languagecode="1053" />
+            <Description description="Päivämäärä ja kellonaika, jona jono luotiin." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="CreatedOnBehalfBy">
+          <Type>lookup</Type>
+          <Name>createdonbehalfby</Name>
+          <LogicalName>createdonbehalfby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Created By (Delegate)" languagecode="1033" />
+            <displayname description="Skapat av (ombud)" languagecode="1053" />
+            <displayname description="Luonut (delegoitu käyttäjä)" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the delegate user who created the queue." languagecode="1033" />
+            <Description description="Unik identifierare för den ombudsanvändare som skapade kön." languagecode="1053" />
+            <Description description="Jonon luoneen delegoidun käyttäjän yksilöllinen tunnus." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="DefaultMailbox">
+          <Type>lookup</Type>
+          <Name>defaultmailbox</Name>
+          <LogicalName>defaultmailbox</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>6.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Mailbox" languagecode="1033" />
+            <displayname description="Postlåda" languagecode="1053" />
+            <displayname description="Postilaatikko" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select the mailbox associated with this queue." languagecode="1033" />
+            <Description description="Välj postlådan som är associerad med den här kön." languagecode="1053" />
+            <Description description="Valitse tähän jonoon liittyvä postilaatikko." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Description">
+          <Type>ntext</Type>
+          <Name>description</Name>
+          <LogicalName>description</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MaxLength>2000</MaxLength>
+          <displaynames>
+            <displayname description="Description" languagecode="1033" />
+            <displayname description="Beskrivning" languagecode="1053" />
+            <displayname description="Kuvaus" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Description of the queue." languagecode="1033" />
+            <Description description="Beskrivning av kön." languagecode="1053" />
+            <Description description="Jonon kuvaus." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EMailAddress">
+          <Type>nvarchar</Type>
+          <Name>emailaddress</Name>
+          <LogicalName>emailaddress</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Incoming Email" languagecode="1033" />
+            <displayname description="Inkommande e-post" languagecode="1053" />
+            <displayname description="Saapuva sähköposti" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Email address that is associated with the queue." languagecode="1033" />
+            <Description description="E-postadress som är associerad med kön." languagecode="1053" />
+            <Description description="Jonoon liittyvä sähköpostiosoite." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EmailPassword">
+          <Type>nvarchar</Type>
+          <Name>emailpassword</Name>
+          <LogicalName>emailpassword</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>200</MaxLength>
+          <Length>400</Length>
+          <displaynames>
+            <displayname description="Password (Obsolete)" languagecode="1033" />
+            <displayname description="Lösenord (Inaktuellt)" languagecode="1053" />
+            <displayname description="Salasana (vanhentunut)" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="This attribute is no longer used. The data is now in the Mailbox.Password attribute." languagecode="1033" />
+            <Description description="Attributet används inte längre. Informationen finns nu i attributet Mailbox.Password." languagecode="1053" />
+            <Description description="Tätä määritettä ei enää käytetä. Tiedot ovat nyt määritteessä Mailbox.Password." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EmailRouterAccessApproval">
+          <Type>picklist</Type>
+          <Name>emailrouteraccessapproval</Name>
+          <LogicalName>emailrouteraccessapproval</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_emailrouteraccessapproval">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Shows whether the email address is approved for each mailbox for processing email through server-side synchronization or the Email Router." languagecode="1033" />
+              <displayname description="Näyttää, hyväksytäänkö sähköpostiosoite kunkin postilaatikon osalta käsiteltäessä sähköpostia palvelinpuolen synkronoinnin tai sähköpostireitittimen kautta." languagecode="1035" />
+              <displayname description="Visar om e-postadressen har godkänts för alla postlådor för bearbetning av e-post via serversynkronisering eller e-postrouter." languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Indicates the approval options for server-side synchronization or Email Router access." languagecode="1033" />
+              <Description description="Ilmaisee palvelinpuolen synkronoinnin tai sähköpostireitittimen käytön hyväksyntäasetukset." languagecode="1035" />
+              <Description description="Anger godkännandealternativen för åtkomst till serversynkronisering eller e-postrouter." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Empty" languagecode="1033" />
+                  <label description="Tomt" languagecode="1053" />
+                  <label description="Tyhjä" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Approved" languagecode="1033" />
+                  <label description="Godkänd" languagecode="1053" />
+                  <label description="Hyväksytty" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="2">
+                <labels>
+                  <label description="Pending Approval" languagecode="1033" />
+                  <label description="Väntar på godkännande" languagecode="1053" />
+                  <label description="Odottaa hyväksyntää" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="3">
+                <labels>
+                  <label description="Rejected" languagecode="1033" />
+                  <label description="Avvisad" languagecode="1053" />
+                  <label description="Hylätty" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Primary Email Status" languagecode="1033" />
+            <displayname description="Status för primär e-post" languagecode="1053" />
+            <displayname description="Ensisijaisen sähköpostin tila" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows the status of the primary email address." languagecode="1033" />
+            <Description description="Visar status för den primära e-postadressen." languagecode="1053" />
+            <Description description="Näyttää ensisijaisen sähköpostiosoitteen tilan." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EmailUsername">
+          <Type>nvarchar</Type>
+          <Name>emailusername</Name>
+          <LogicalName>emailusername</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>200</MaxLength>
+          <Length>400</Length>
+          <displaynames>
+            <displayname description="User Name (Obsolete)" languagecode="1033" />
+            <displayname description="Användarnamn (Inaktuellt)" languagecode="1053" />
+            <displayname description="Käyttäjänimi (vanhentunut)" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="This attribute is no longer used. The data is now in the Mailbox.UserName attribute." languagecode="1033" />
+            <Description description="Attributet används inte längre. Informationen finns nu i attributet Mailbox.UserName." languagecode="1053" />
+            <Description description="Tätä määritettä ei enää käytetä. Tiedot ovat nyt määritteessä Mailbox.UserName." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EntityImage">
+          <Type>image</Type>
+          <Name>entityimage</Name>
+          <LogicalName>entityimage</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>DenormalizedChild|PrimaryImage</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>6.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>jpeg</Format>
+          <MaxLength>9437328</MaxLength>
+          <displaynames>
+            <displayname description="Entity Image" languagecode="1033" />
+            <displayname description="Entiteetin kuva" languagecode="1035" />
+            <displayname description="Entitetsbild" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="The default image for the entity." languagecode="1033" />
+            <Description description="Entiteetin oletuskuva." languagecode="1035" />
+            <Description description="Standardbilden för entiteten." languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="IgnoreUnsolicitedEmail">
+          <Type>bit</Type>
+          <Name>ignoreunsolicitedemail</Name>
+          <LogicalName>ignoreunsolicitedemail</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_ignoreunsolicitedemail">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Convert To Email Activities" languagecode="1033" />
+              <displayname description="Muunna sähköpostiaktiviteeteiksi" languagecode="1035" />
+              <displayname description="Konvertera till e-postaktiviteter" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Information that specifies whether a queue is to ignore unsolicited email (deprecated)." languagecode="1033" />
+              <Description description="Tieto siitä, onko jonon määrä ohittaa pyytämättä saapuneet sähköpostiviestit (vanhentunut)." languagecode="1035" />
+              <Description description="Information som anger om en kö ska ignorera oönskad e-post (inaktuell)." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="All incoming Emails" languagecode="1033" />
+                  <label description="Alla inkommande e-postmeddelanden" languagecode="1053" />
+                  <label description="Kaikki saapuvat sähköpostiviestit" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Only specific Emails" languagecode="1033" />
+                  <label description="Endast specifika e-postmeddelanden" languagecode="1053" />
+                  <label description="Vain tietyt sähköpostiviestit" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Convert To Email Activities" languagecode="1033" />
+            <displayname description="Konvertera till e-postaktiviteter" languagecode="1053" />
+            <displayname description="Muunna sähköpostiaktiviteeteiksi" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Information that specifies whether a queue is to ignore unsolicited email (deprecated)." languagecode="1033" />
+            <Description description="Information som anger om en kö ska ignorera oönskad e-post (inaktuell)." languagecode="1053" />
+            <Description description="Tieto siitä, onko jonon määrä ohittaa pyytämättä saapuneet sähköpostiviestit (vanhentunut)." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ImportSequenceNumber">
+          <Type>int</Type>
+          <Name>importsequencenumber</Name>
+          <LogicalName>importsequencenumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Import Sequence Number" languagecode="1033" />
+            <displayname description="Importsekvensnummer" languagecode="1053" />
+            <displayname description="Tuonnin järjestysnumero" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the data import or data migration that created this record." languagecode="1033" />
+            <Description description="Sekvensnummer för den import eller migrering där denna post skapades." languagecode="1053" />
+            <Description description="Tämän tietueen luoneen tietojen tuonnin tai siirron yksilöllinen tunnus." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="IncomingEmailDeliveryMethod">
+          <Type>picklist</Type>
+          <Name>incomingemaildeliverymethod</Name>
+          <LogicalName>incomingemaildeliverymethod</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_incomingemaildeliverymethod">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Incoming Email Delivery Method" languagecode="1033" />
+              <displayname description="Saapuvien sähköpostiviestien toimitustapa" languagecode="1035" />
+              <displayname description="Leveransmetod för inkommande e-post" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Incoming email delivery method for the queue." languagecode="1033" />
+              <Description description="Jonon saapuvien sähköpostiviestien toimitustapa." languagecode="1035" />
+              <Description description="Köns leveransmetod för inkommande e-post." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="None" languagecode="1033" />
+                  <label description="Ingen" languagecode="1053" />
+                  <label description="Ei ole" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="2">
+                <labels>
+                  <label description="Server-Side Synchronization or Email Router" languagecode="1033" />
+                  <label description="Serversynkronisering eller e-postrouter" languagecode="1053" />
+                  <label description="Palvelinpuolen synkronointi tai sähköpostireititin" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="3">
+                <labels>
+                  <label description="Forward Mailbox" languagecode="1033" />
+                  <label description="Postlåda för vidarebefordran" languagecode="1053" />
+                  <label description="Välityspostilaatikko" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Incoming Email Delivery Method" languagecode="1033" />
+            <displayname description="Leveransmetod för inkommande e-post" languagecode="1053" />
+            <displayname description="Saapuvien sähköpostiviestien toimitustapa" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Incoming email delivery method for the queue." languagecode="1033" />
+            <Description description="Köns leveransmetod för inkommande e-post." languagecode="1053" />
+            <Description description="Jonon saapuvien sähköpostiviestien toimitustapa." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="IncomingEmailFilteringMethod">
+          <Type>picklist</Type>
+          <Name>incomingemailfilteringmethod</Name>
+          <LogicalName>incomingemailfilteringmethod</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_incomingemailfilteringmethod">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Incoming Email Filtering Method" languagecode="1033" />
+              <displayname description="Saapuvien sähköpostiviestien suodatustapa" languagecode="1035" />
+              <displayname description="Filtreringsmetod för inkommande e-post" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Incoming email filtering method." languagecode="1033" />
+              <Description description="Saapuvien sähköpostiviestien suodatustapa." languagecode="1035" />
+              <Description description="Filtreringsmetod för inkommande e-post." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="All email messages" languagecode="1033" />
+                  <label description="Alla e-postmeddelanden" languagecode="1053" />
+                  <label description="Kaikki sähköpostiviestit" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Email messages in response to Dynamics 365 email" languagecode="1033" />
+                  <label description="E-postmeddelanden som svarar på e-post från Dynamics 365" languagecode="1053" />
+                  <label description="Sähköpostiviestit Dynamics 365 -sähköpostin vastauksissa" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="2">
+                <labels>
+                  <label description="Email messages from Dynamics 365 Leads, Contacts and Accounts" languagecode="1033" />
+                  <label description="E-postmeddelanden från Leads, Kontakter och Konton i Dynamics 365" languagecode="1053" />
+                  <label description="Sähköpostiviestit Dynamics 365 -järjestelmän liideiltä, yhteyshenkilöiltä ja asiakkailta" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="3">
+                <labels>
+                  <label description="Email messages from Dynamics 365 records that are email enabled" languagecode="1033" />
+                  <label description="E-postmeddelanden från Dynamics 365-poster som är e-postaktiverade" languagecode="1053" />
+                  <label description="Sähköpostiviestit Dynamics 365 -tietueista, joissa sähköpostiominaisuus on käytössä" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="4">
+                <labels>
+                  <label description="No email messages" languagecode="1033" />
+                  <label description="Inga e-postmeddelanden" languagecode="1053" />
+                  <label description="Ei sähköpostiviestejä" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Convert Incoming Email To Activities" languagecode="1033" />
+            <displayname description="Konvertera inkommande e-post till aktiviteter" languagecode="1053" />
+            <displayname description="Muunna saapuva sähköposti aktiviteeteiksi:" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Convert Incoming Email To Activities" languagecode="1033" />
+            <Description description="Konvertera inkommande e-post till aktiviteter" languagecode="1053" />
+            <Description description="Muunna saapuva sähköposti aktiviteeteiksi:" languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="IsEmailAddressApprovedByO365Admin">
+          <Type>bit</Type>
+          <Name>isemailaddressapprovedbyo365admin</Name>
+          <LogicalName>isemailaddressapprovedbyo365admin</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>6.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_isemailaddressapprovedbyo365admin">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>6.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Is Mailbox approved by O365 Admin" languagecode="1033" />
+              <displayname description="Hyväksyykö O365-järjestelmänvalvoja postilaatikon" languagecode="1035" />
+              <displayname description="Är postlådegodkänd av O365-administratören" languagecode="1053" />
+            </displaynames>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="Nej" languagecode="1053" />
+                  <label description="Ei" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="Ja" languagecode="1053" />
+                  <label description="Kyllä" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Email Address O365 Admin Approval Status" languagecode="1033" />
+            <displayname description="Sähköpostiosoitteen O365-järjestelmänvalvojan hyväksynnän tila" languagecode="1035" />
+            <displayname description="O365-administratörens godkännandestatus för e-postadressen" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows the status of approval of the email address by O365 Admin." languagecode="1033" />
+            <Description description="Näyttää sähköpostiosoitteen O365-järjestelmänvalvojan hyväksynnän tilan." languagecode="1035" />
+            <Description description="Visar O365-administratörens godkännandestatus för e-postadressen." languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="IsFaxQueue">
+          <Type>bit</Type>
+          <Name>isfaxqueue</Name>
+          <LogicalName>isfaxqueue</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_isfaxqueue">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Fax Queue" languagecode="1033" />
+              <displayname description="Faksijono" languagecode="1035" />
+              <displayname description="Faxkö" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Indication of whether a queue is the fax delivery queue." languagecode="1033" />
+              <Description description="Tieto siitä, onko jono faksin toimitusjono." languagecode="1035" />
+              <Description description="Indikation om huruvida en kö är faxleveranskön." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Non-fax Queue" languagecode="1033" />
+                  <label description="Icke-faxkö" languagecode="1053" />
+                  <label description="Muu kuin faksijono" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Fax Queue" languagecode="1033" />
+                  <label description="Faxkö" languagecode="1053" />
+                  <label description="Faksijono" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Fax Queue" languagecode="1033" />
+            <displayname description="Faksijono" languagecode="1035" />
+            <displayname description="Faxkö" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Indication of whether a queue is the fax delivery queue." languagecode="1033" />
+            <Description description="Tieto siitä, onko jono faksin toimitusjono." languagecode="1035" />
+            <Description description="Indikation om huruvida en kö är faxleveranskön." languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ModifiedBy">
+          <Type>lookup</Type>
+          <Name>modifiedby</Name>
+          <LogicalName>modifiedby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Modified By" languagecode="1033" />
+            <displayname description="Redigerad av" languagecode="1053" />
+            <displayname description="Muokkaaja" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the user who last modified the queue." languagecode="1033" />
+            <Description description="Unik identifierare för den användare som senast ändrade kön." languagecode="1053" />
+            <Description description="Jonoa viimeksi muokanneen käyttäjän yksilöllinen tunnus." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ModifiedOn">
+          <Type>datetime</Type>
+          <Name>modifiedon</Name>
+          <LogicalName>modifiedon</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <displaynames>
+            <displayname description="Modified On" languagecode="1033" />
+            <displayname description="Ändrad den" languagecode="1053" />
+            <displayname description="Muokattu" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Date and time when the queue was last modified." languagecode="1033" />
+            <Description description="Datum och tid när kön senast ändrades." languagecode="1053" />
+            <Description description="Päivämäärä ja kellonaika, jona jonoa viimeksi muokattiin." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="ModifiedOnBehalfBy">
+          <Type>lookup</Type>
+          <Name>modifiedonbehalfby</Name>
+          <LogicalName>modifiedonbehalfby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Modified By (Delegate)" languagecode="1033" />
+            <displayname description="Ändrat av (ombud)" languagecode="1053" />
+            <displayname description="Muokkaaja (delegoitu käyttäjä)" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the delegate user who last modified the queue." languagecode="1033" />
+            <Description description="Unik identifierare för den ombudsanvändare som senast ändrade kön." languagecode="1053" />
+            <Description description="Jonoa viimeksi muokanneen delegoidun käyttäjän yksilöllinen tunnus." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_isdefaultqueue">
+          <Type>bit</Type>
+          <Name>msdyn_isdefaultqueue</Name>
+          <LogicalName>msdyn_isdefaultqueue</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_msdyn_isdefaultqueue">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Is Default Queue" languagecode="1033" />
+              <displayname description="On oletusjono" languagecode="1035" />
+              <displayname description="Är standardkö" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Shows whether the queue is set as default or not." languagecode="1033" />
+              <Description description="Näyttää, onko jono asetettu oletukseksi vai ei." languagecode="1035" />
+              <Description description="Visar om programkön är inställd som standard eller inte." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="" languagecode="1053" />
+                  <label description="Ei" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="" languagecode="1053" />
+                  <label description="Kyllä" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Is Default Queue" languagecode="1033" />
+            <displayname description="On oletusjono" languagecode="1035" />
+            <displayname description="Är standardkö" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows whether the queue is set as default or not." languagecode="1033" />
+            <Description description="Näyttää, onko jono asetettu oletukseksi vai ei." languagecode="1035" />
+            <Description description="Visar om programkön är inställd som standard eller inte." languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_isomnichannelqueue">
+          <Type>bit</Type>
+          <Name>msdyn_isomnichannelqueue</Name>
+          <LogicalName>msdyn_isomnichannelqueue</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_msdyn_isomnichannelqueue">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Is Omnichannel queue" languagecode="1033" />
+              <displayname description="On Monikanava-jono" languagecode="1035" />
+              <displayname description="Är flerkanalskö" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Shows whether the queue is used as Omnichannel queue for work distribution." languagecode="1033" />
+              <Description description="Näyttää, käytetäänkö jonoa Monikanava-jonona työn jakelua varten." languagecode="1035" />
+              <Description description="Anger om kön används som flerkanalskö för arbetsfördelning." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0" Color="#0000ff">
+                <labels>
+                  <label description="No" languagecode="1033" />
+                  <label description="" languagecode="1053" />
+                  <label description="Ei" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1" Color="#0000ff">
+                <labels>
+                  <label description="Yes" languagecode="1033" />
+                  <label description="" languagecode="1053" />
+                  <label description="Kyllä" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Is Omnichannel queue" languagecode="1033" />
+            <displayname description="On Monikanava-jono" languagecode="1035" />
+            <displayname description="Är flerkanalskö" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows whether the queue is used as Omnichannel queue for work distribution." languagecode="1033" />
+            <Description description="Näyttää, käytetäänkö jonoa Monikanava-jonona työn jakelua varten." languagecode="1035" />
+            <Description description="Anger om kön används som flerkanalskö för arbetsfördelning." languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_operatinghourid">
+          <Type>lookup</Type>
+          <Name>msdyn_operatinghourid</Name>
+          <LogicalName>msdyn_operatinghourid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Operating Hours" languagecode="1033" />
+            <displayname description="Palveluajat" languagecode="1035" />
+            <displayname description="Öppettider" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Operating hour associated with Queue" languagecode="1033" />
+            <Description description="Jonoon liittyvän palveluajan yksilöllinen tunnus" languagecode="1035" />
+            <Description description="Unik identifierare för öppettid associerad med kö" languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_priority">
+          <Type>int</Type>
+          <Name>msdyn_priority</Name>
+          <LogicalName>msdyn_priority</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MinValue>1</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname description="Priority" languagecode="1033" />
+            <displayname description="Prioriteetti" languagecode="1035" />
+            <displayname description="Prioritet" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Priority of the queue to indicate conversation assignment order to the agent." languagecode="1033" />
+            <Description description="Jonon prioriteetti, joka osoittaa keskustelun määritysjärjestyksen edustajalle." languagecode="1035" />
+            <Description description="Prioritet för kön som anger i vilken ordning konversationen tilldelas handläggaren." languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_queuetype">
+          <Type>picklist</Type>
+          <Name>msdyn_queuetype</Name>
+          <LogicalName>msdyn_queuetype</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>192350000</AppDefaultValue>
+          <OptionSetName>msdyn_queuetype</OptionSetName>
+          <displaynames>
+            <displayname description="Queue type" languagecode="1033" />
+            <displayname description="Jonon tyyppi" languagecode="1035" />
+            <displayname description="Kötyp" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Defines the type of channels handled by this queue" languagecode="1033" />
+            <Description description="Määrittää tämän jonon käsittelemien kanavien tyypit" languagecode="1035" />
+            <Description description="Definierar typen av kanaler som hanteras av den här kön" languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Name">
+          <Type>nvarchar</Type>
+          <Name>name</Name>
+          <LogicalName>name</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>PrimaryName|ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>200</MaxLength>
+          <Length>400</Length>
+          <displaynames>
+            <displayname description="Name" languagecode="1033" />
+            <displayname description="Namn" languagecode="1053" />
+            <displayname description="Nimi" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Name of the queue." languagecode="1033" />
+            <Description description="Namn på kön." languagecode="1053" />
+            <Description description="Jonon nimi." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OutgoingEmailDeliveryMethod">
+          <Type>picklist</Type>
+          <Name>outgoingemaildeliverymethod</Name>
+          <LogicalName>outgoingemaildeliverymethod</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_outgoingemaildeliverymethod">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Outgoing Email Delivery Method" languagecode="1033" />
+              <displayname description="Lähtevien sähköpostiviestien toimitustapa" languagecode="1035" />
+              <displayname description="Leveransmetod för utgående e-post" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Outgoing email delivery method for the queue." languagecode="1033" />
+              <Description description="Jonon lähtevien sähköpostiviestien toimitustapa." languagecode="1035" />
+              <Description description="Köns leveransmetod för utgående e-post." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="None" languagecode="1033" />
+                  <label description="Ingen" languagecode="1053" />
+                  <label description="Ei ole" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="2">
+                <labels>
+                  <label description="Server-Side Synchronization or Email Router" languagecode="1033" />
+                  <label description="Serversynkronisering eller e-postrouter" languagecode="1053" />
+                  <label description="Palvelinpuolen synkronointi tai sähköpostireititin" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Outgoing Email Delivery Method" languagecode="1033" />
+            <displayname description="Leveransmetod för utgående e-post" languagecode="1053" />
+            <displayname description="Lähtevien sähköpostiviestien toimitustapa" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Outgoing email delivery method for the queue." languagecode="1033" />
+            <Description description="Köns leveransmetod för utgående e-post." languagecode="1053" />
+            <Description description="Jonon lähtevien sähköpostiviestien toimitustapa." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OverriddenCreatedOn">
+          <Type>datetime</Type>
+          <Name>overriddencreatedon</Name>
+          <LogicalName>overriddencreatedon</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>date</Format>
+          <displaynames>
+            <displayname description="Record Created On" languagecode="1033" />
+            <displayname description="Posten skapades den" languagecode="1053" />
+            <displayname description="Tietue luotu" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Date and time that the record was migrated." languagecode="1033" />
+            <Description description="Datum och tid när posten migrerades." languagecode="1053" />
+            <Description description="Tietueen siirron päivämäärä ja kellonaika." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="OwnerId">
+          <Type>owner</Type>
+          <Name>ownerid</Name>
+          <LogicalName>ownerid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">9</LookupType>
+            <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Owner" languagecode="1033" />
+            <displayname description="Ägare" languagecode="1053" />
+            <displayname description="Omistaja" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier of the user or team who owns the queue." languagecode="1033" />
+            <Description description="Unik identifierare för den användare eller det team som äger kön." languagecode="1053" />
+            <Description description="Jonon omistavan käyttäjän tai ryhmän yksilöllinen tunnus." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="QueueTypeCode">
+          <Type>picklist</Type>
+          <Name>queuetypecode</Name>
+          <LogicalName>queuetypecode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>1</AppDefaultValue>
+          <optionset Name="queue_queuetypecode">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Queue Type" languagecode="1033" />
+              <displayname description="Jonon tyyppi" languagecode="1035" />
+              <displayname description="Kötyp" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Type of queue that is automatically assigned when a user or queue is created. The type can be public, private, or work in process." languagecode="1033" />
+              <Description description="Jonotyyppi, joka määritetään automaattisesti, kun käyttäjä tai jono luodaan. Tyyppi voi olla julkinen, yksityinen tai keskeneräinen työ." languagecode="1035" />
+              <Description description="Typ av kö som automatiskt tilldelas när en användare eller kö skapas. Typen kan vara allmän, privat eller pågående arbete." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="1">
+                <labels>
+                  <label description="Default Value" languagecode="1033" />
+                  <label description="Standardvärde" languagecode="1053" />
+                  <label description="Oletusarvo" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Queue Type" languagecode="1033" />
+            <displayname description="Jonon tyyppi" languagecode="1035" />
+            <displayname description="Kötyp" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type of queue that is automatically assigned when a user or queue is created. The type can be public, private, or work in process." languagecode="1033" />
+            <Description description="Jonotyyppi, joka määritetään automaattisesti, kun käyttäjä tai jono luodaan. Tyyppi voi olla julkinen, yksityinen tai keskeneräinen työ." languagecode="1035" />
+            <Description description="Typ av kö som automatiskt tilldelas när en användare eller kö skapas. Typen kan vara allmän, privat eller pågående arbete." languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="QueueViewType">
+          <Type>picklist</Type>
+          <Name>queueviewtype</Name>
+          <LogicalName>queueviewtype</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>6.1.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset Name="queue_queueviewtype">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>6.1.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Type" languagecode="1033" />
+              <displayname description="Tyyppi" languagecode="1035" />
+              <displayname description="Typ" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Select whether the queue is public or private. A public queue can be viewed by all.A private queue can be viewed only by the members added to the queue." languagecode="1033" />
+              <Description description="Valitse, onko jono julkinen vai yksityinen. Kaikki näkevät julkisen jonon. Vain jonoon lisätyt jäsenet näkevät yksityisen jonon." languagecode="1035" />
+              <Description description="Välj om kön är offentlig eller privat. En offentlig kö kan visas av alla. En privat kö kan bara visas av de medlemmar som lagts till i kön." languagecode="1053" />
+            </Descriptions>
+            <options>
+              <option value="0">
+                <labels>
+                  <label description="Public" languagecode="1033" />
+                  <label description="Offentlig" languagecode="1053" />
+                  <label description="Julkinen" languagecode="1035" />
+                </labels>
+              </option>
+              <option value="1">
+                <labels>
+                  <label description="Private" languagecode="1033" />
+                  <label description="Privat" languagecode="1053" />
+                  <label description="Yksityinen" languagecode="1035" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname description="Type" languagecode="1033" />
+            <displayname description="Tyyppi" languagecode="1035" />
+            <displayname description="Typ" languagecode="1053" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Select whether the queue is public or private. A public queue can be viewed by all. A private queue can be viewed only by the members added to the queue." languagecode="1033" />
+            <Description description="Valitse, onko jono julkinen vai yksityinen. Kaikki näkevät julkisen jonon. Vain jonoon lisätyt jäsenet näkevät yksityisen jonon." languagecode="1035" />
+            <Description description="Välj om kön är offentlig eller privat. En offentlig kö kan visas av alla. En privat kö kan bara visas av de medlemmar som lagts till i kön." languagecode="1053" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="StateCode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="queue_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status" languagecode="1033" />
+              <displayname description="Tila" languagecode="1035" />
+              <displayname description="Status" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Status of the queue." languagecode="1033" />
+              <Description description="Jonon tila." languagecode="1035" />
+              <Description description="Status för kön." languagecode="1053" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="Aktiv" languagecode="1053" />
+                  <label description="Aktiivinen" languagecode="1035" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="Inaktiv" languagecode="1053" />
+                  <label description="Passiivinen" languagecode="1035" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="Status" languagecode="1053" />
+            <displayname description="Tila" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Status of the queue." languagecode="1033" />
+            <Description description="Status för kön." languagecode="1053" />
+            <Description description="Jonon tila." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="StatusCode">
+          <Type>status</Type>
+          <Name>statuscode</Name>
+          <LogicalName>statuscode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="queue_statuscode">
+            <OptionSetType>status</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status Reason" languagecode="1033" />
+              <displayname description="Tilan syy" languagecode="1035" />
+              <displayname description="Statusorsak" languagecode="1053" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Reason for the status of the queue." languagecode="1033" />
+              <Description description="Jonon tilan syy." languagecode="1035" />
+              <Description description="Orsak till köns status." languagecode="1053" />
+            </Descriptions>
+            <statuses>
+              <status value="2" state="1">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="Inaktiv" languagecode="1053" />
+                  <label description="Passiivinen" languagecode="1035" />
+                </labels>
+              </status>
+              <status value="1" state="0">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="Aktiv" languagecode="1053" />
+                  <label description="Aktiivinen" languagecode="1035" />
+                </labels>
+              </status>
+            </statuses>
+          </optionset>
+          <displaynames>
+            <displayname description="Status Reason" languagecode="1033" />
+            <displayname description="Statusorsak" languagecode="1053" />
+            <displayname description="Tilan syy" languagecode="1035" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Reason for the status of the queue." languagecode="1033" />
+            <Description description="Orsak till köns status." languagecode="1053" />
+            <Description description="Jonon tilan syy." languagecode="1035" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>queues</EntitySetName>
+      <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+      <IsRequiredOffline>1</IsRequiredOffline>
+      <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <EntityColor></EntityColor>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+      <IsAuditEnabled>1</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask>CommunicationActivity</ActivityTypeMask>
+      <IsActivityParty>1</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>0</IsMailMergeEnabled>
+      <IsVisibleInMobile>0</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+      <MobileOfflineFilters>
+    &lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
+      &lt;entity name="queue"&gt;
+        &lt;filter type="and"&gt;
+          &lt;condition attribute="modifiedon" operator="last-x-days" value="10"/&gt;
+        &lt;/filter&gt;
+      &lt;/entity&gt;
+    &lt;/fetch&gt;
+  </MobileOfflineFilters>
+      <IsMapiGridEnabled>0</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+      <IntroducedVersion>5.0.0.0</IntroducedVersion>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <EntityHelpUrl></EntityHelpUrl>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

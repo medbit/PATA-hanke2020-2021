@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{136b3800-234b-420c-9d8a-458b61cb2263}</formid>
+    <IntroducedVersion>1.0.1.3</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1920" showImage="false" shownavigationbar="true">
+      <tabs>
+        <tab id="{65e6d3b6-465d-0c3e-a6d5-477326559217}" name="Details" expanded="true" showlabel="true" locklevel="0" IsUserDefined="0" labelid="{27b22fc0-6252-491c-90ff-bd76d8478416}" visible="false" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section id="{3cb68897-0d05-e4e5-e811-6d769e0ed6b5}" name="Details" showlabel="true" locklevel="0" IsUserDefined="0" labelwidth="115" columns="1" layout="varwidth" showbar="false" celllabelposition="Left" celllabelalignment="Left" labelid="{7d2a5a14-924d-41b7-85cc-065a88d1fd9f}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{110779ca-4e22-16a5-8b45-517e4350ee86}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="State" languagecode="1033" solutionaction="Modified" />
+                          <label description="Tila" languagecode="1035" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{66811413-4a4b-443b-a366-284184e4d579}" labelwidth="115" columns="1111" celllabelposition="Top">
+        <rows />
+      </header>
+      <DisplayConditions FallbackForm="true" Order="2" solutionaction="Modified" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Conversation Form" languagecode="1033" />
+      <LocalizedName description="Keskustelulomake" languagecode="1035" />
+      <LocalizedName description="Konversationsformulär" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Tämän entiteetin lomake." languagecode="1035" />
+      <Description description="Ett formulär för den här entiteten." languagecode="1053" />
+    </Descriptions>
+  </systemform>
+</forms>

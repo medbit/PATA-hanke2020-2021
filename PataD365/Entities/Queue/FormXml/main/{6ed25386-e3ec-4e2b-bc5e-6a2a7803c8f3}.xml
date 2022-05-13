@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6ed25386-e3ec-4e2b-bc5e-6a2a7803c8f3}</formid>
+    <IntroducedVersion>9.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{26ee6844-370e-41e0-97f4-66afd3d838b9}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section name="queue information" showlabel="true" showbar="false" id="{6a5f6485-f4fb-4809-a27c-1bec47ea232f}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell colspan="2" id="{c41a3cfb-87c1-4a3f-ae79-9e4969338ef4}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                          <label description="Namn" languagecode="1053" solutionaction="Added" />
+                          <label description="Nimi" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{a5cccf27-97b5-49c6-b1bc-9fdf037804f7}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Type" languagecode="1033" solutionaction="Added" />
+                          <label description="Typ" languagecode="1053" solutionaction="Added" />
+                          <label description="Tyyppi" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{0ae52dec-4a09-4af3-a2da-e0046e088913}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Incoming Email" languagecode="1033" solutionaction="Added" />
+                          <label description="Inkommande e-post" languagecode="1053" solutionaction="Added" />
+                          <label description="Saapuva sähköposti" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{dc16fa25-d252-4ed3-b0bc-38054a643069}" ordinalvalue="10003">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                          <label description="Ägare" languagecode="1053" solutionaction="Added" />
+                          <label description="Omistaja" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" showlabel="true" rowspan="3" id="{d69d808e-6aad-4db5-b772-6693cf7ce512}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                          <label description="Beskrivning" languagecode="1053" solutionaction="Added" />
+                          <label description="Kuvaus" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="incoming email" showlabel="true" showbar="false" locklevel="0" id="{90b8dd85-867b-4aca-8d30-7c00117e693a}" IsUserDefined="0" labelwidth="200" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{46b89973-7949-4e41-83b9-baeba8ccde64}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Convert Incoming Email To Activities" languagecode="1033" solutionaction="Added" />
+                          <label description="Konvertera inkommande e-post till aktiviteter" languagecode="1053" solutionaction="Added" />
+                          <label description="Muunna saapuva sähköposti aktiviteeteiksi:" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a24c5251-56c3-4b8f-824a-fc013d4b4534}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Mailbox" languagecode="1033" solutionaction="Added" />
+                          <label description="Postlåda" languagecode="1053" solutionaction="Added" />
+                          <label description="Postilaatikko" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="RecordCreationAndUpdateRule" showlabel="true" showbar="false" id="{3d635828-2587-4f94-bfe2-e80e36366e71}" IsUserDefined="0" labelwidth="200" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{658057aa-312e-43c5-9982-83af40fa3dc1}" showlabel="true" colspan="1" auto="false" rowspan="12" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%" id="1">
+              <sections>
+                <section name="QueueItems" showlabel="false" showbar="false" id="{cd2b3a40-8fc8-4494-9ad3-6f93388bb3bb}" IsUserDefined="0" labelwidth="102" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{50f3cc95-b7ff-4eba-8afd-ad71d56e4182}" showlabel="true" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="QueueMembers" showlabel="false" showbar="false" id="{609BA71A-A34C-4021-A3A8-950ED6E27C56}" IsUserDefined="0" locklevel="0" layout="varwidth" labelwidth="250" visible="false" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{FAFA5CA5-9147-497D-81D1-BC2EC61D5D3C}" showlabel="true" colspan="1" auto="false" rowspan="12" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{9b84a9be-a57d-4119-b512-7706b135eb93}" name="conflictstab" group="solutionconflictstab" ordinalvalue="1">
+          <labels>
+            <label description="Conflicts Tab" languagecode="1033" solutionaction="Added" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="general_section_7" showlabel="true" showbar="false" locklevel="0" id="{9a5ac2d5-62d5-5836-493e-28b2590b2a2e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <labels>
+                    <label description="Flerkanal" languagecode="1053" solutionaction="Added" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4c72d042-c238-79de-c5d5-428b1ac46622}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Automatisk arbetsfördelning" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{2a925a76-c129-4124-a255-bb0f779709c8}" name="conflictssection" group="solutionconflictssection" ordinalvalue="1">
+                  <labels>
+                    <label description="Conflicts Section" languagecode="1033" solutionaction="Added" />
+                  </labels>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Queue" languagecode="1033" />
+      <LocalizedName description="Jono" languagecode="1035" />
+      <LocalizedName description="Kö" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Queue form." languagecode="1033" />
+      <Description description="Päivitetty oletusjonolomake." languagecode="1035" />
+      <Description description="Uppdaterat standardformulär för kö." languagecode="1053" />
+    </Descriptions>
+  </systemform>
+</forms>

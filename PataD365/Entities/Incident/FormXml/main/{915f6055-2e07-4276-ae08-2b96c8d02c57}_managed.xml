@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{915f6055-2e07-4276-ae08-2b96c8d02c57}</formid>
+    <IntroducedVersion>8.0.0.0</IntroducedVersion>
+    <FormPresentation>2</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="Summary" id="{fcfdc216-e3c6-4bbe-baba-1d5774ea78f5}" IsUserDefined="0" locklevel="0" showlabel="false" expanded="true" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="General Info" showlabel="false" showbar="false" locklevel="0" id="{84f29dbc-6013-4ba2-9666-64b471d7459f}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{82bed4a4-41e1-4c3a-ac46-251fdf691b01}" rowspan="1" showlabel="false" locklevel="1" ordinalvalue="10000">
+                        <labels>
+                          <label description="Citizen" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenottaja" languagecode="1035" solutionaction="Added" />
+                          <label description="Kund" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Case Details Summary" showlabel="false" showbar="false" locklevel="0" id="{b1105b8a-4c1c-a045-841b-d688c7826cc6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{08077e93-1293-40b4-8b48-b8d5dba7b2a9}" showlabel="true" locklevel="0" colspan="1" availableforphone="true" ordinalvalue="10000">
+                        <labels>
+                          <label description="Title" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenoton otsikko" languagecode="1035" solutionaction="Added" />
+                          <label description="Ärenderubrik" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dcade6ea-49d9-4914-9d8c-4dd45d68b56c}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Case Number" languagecode="1033" solutionaction="Added" />
+                          <label description="Tunniste" languagecode="1035" solutionaction="Added" />
+                          <label description="Ärendenummer" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e749814-cad5-4f86-b462-dccd684f976c}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Reason for contact" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenoton syy" languagecode="1035" solutionaction="Added" />
+                          <label description="Ämne" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a4476ce-1954-4a74-be83-3fbccc4b50ec}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Citizen" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenottaja" languagecode="1035" solutionaction="Added" />
+                          <label description="Kund" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14ccc597-87b9-4758-9c5c-948bdac72713}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="Origin" languagecode="1033" solutionaction="Added" />
+                          <label description="Alkuperä" languagecode="1035" solutionaction="Added" />
+                          <label description="Ursprung" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0bf39219-671e-4e7f-82ca-c50f52ecae89}" ordinalvalue="10005">
+                        <labels>
+                          <label description="Product" languagecode="1033" solutionaction="Added" />
+                          <label description="Tuote" languagecode="1035" solutionaction="Added" />
+                          <label description="Produkt" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7237401a-07fb-424c-a404-1b4833990d78}" showlabel="true" locklevel="0" ordinalvalue="10006">
+                        <labels>
+                          <label description="Entitlement" languagecode="1033" solutionaction="Added" />
+                          <label description="Oikeudet" languagecode="1035" solutionaction="Added" />
+                          <label description="Berättigande" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41e1d1c2-510c-e555-8ad3-0ebb4d0c7c2a}" showlabel="true" locklevel="0" ordinalvalue="10007">
+                        <labels>
+                          <label description="IoT Alert" languagecode="1033" solutionaction="Added" />
+                          <label description="IoT-hälytys" languagecode="1035" solutionaction="Added" />
+                          <label description="IoT-avisering" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6420b8f0-0814-4ec4-8305-f32e6160d1f4}" showlabel="true" locklevel="0" rowspan="8" availableforphone="true" ordinalvalue="10008">
+                        <labels>
+                          <label description="Content of the contact" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenoton sisältö" languagecode="1035" solutionaction="Added" />
+                          <label description="Beskrivning" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Details" id="{1d840db5-11ab-4b32-928e-92855404bd66}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" ordinalvalue="1">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section name="Case Details" showlabel="true" showbar="false" locklevel="0" id="{17fb3051-af36-44fb-bac8-594dabd7db33}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d4a4caaa-94de-4c1c-8e09-a89cc229eff6}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Title" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenoton otsikko" languagecode="1035" solutionaction="Added" />
+                          <label description="Ärenderubrik" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10e3f3db-f7e4-42de-99b3-847ceb14d783}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Citizen" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenottaja" languagecode="1035" solutionaction="Added" />
+                          <label description="Kund" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6b0f730e-8289-4730-b116-74ebb2465d94}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Reason for contact" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenoton syy" languagecode="1035" solutionaction="Added" />
+                          <label description="Ämne" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3688e3b6-2b2f-4b77-8b16-a1fd8063b18b}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="Origin" languagecode="1033" solutionaction="Added" />
+                          <label description="Alkuperä" languagecode="1035" solutionaction="Added" />
+                          <label description="Ursprung" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06f2337b-0ba8-4993-8da8-dd0cec675ca7}" showlabel="true" locklevel="0" ordinalvalue="10005">
+                        <labels>
+                          <label description="Contact" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteyshenkilö" languagecode="1035" solutionaction="Added" />
+                          <label description="Kontakt" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b03f8b1-d0f6-40ed-9593-ad476c8da3c7}" ordinalvalue="10006">
+                        <labels>
+                          <label description="Product" languagecode="1033" solutionaction="Added" />
+                          <label description="Tuote" languagecode="1035" solutionaction="Added" />
+                          <label description="Produkt" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c6a4b5d1-73ee-4ba0-ba39-7e0b078ca491}" showlabel="true" locklevel="0" ordinalvalue="10007">
+                        <labels>
+                          <label description="Entitlement" languagecode="1033" solutionaction="Added" />
+                          <label description="Oikeudet" languagecode="1035" solutionaction="Added" />
+                          <label description="Berättigande" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b9ae622-46d6-211a-5e78-d7a04683deea}" showlabel="true" locklevel="0" ordinalvalue="10008">
+                        <labels>
+                          <label description="IoT Alert" languagecode="1033" solutionaction="Added" />
+                          <label description="IoT-hälytys" languagecode="1035" solutionaction="Added" />
+                          <label description="IoT-avisering" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section id="{60d4e9e9-a10e-45e6-b6d5-5a36776cb72e}" columns="1" showlabel="true" showbar="false" IsUserDefined="0" locklevel="0" height="auto" ordinalvalue="1">
+                  <labels>
+                    <label description="KUVAUS" languagecode="1035" solutionaction="Modified" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eabe87d5-4a33-4fea-9baa-7b5c39a10ebe}" showlabel="false" locklevel="0" rowspan="8" auto="true" ordinalvalue="10000">
+                        <labels>
+                          <label description="Content of the contact" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteydenoton sisältö" languagecode="1035" solutionaction="Added" />
+                          <label description="Beskrivning" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section name="Additional Details" showlabel="true" showbar="false" locklevel="0" id="{53e72326-a866-46f8-b5a5-635836f92145}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{e1556de9-7308-4426-9d55-f6ca6846ec46}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Parent Case" languagecode="1033" solutionaction="Added" />
+                          <label description="Ylätason palvelupyyntö" languagecode="1035" solutionaction="Added" />
+                          <label description="Överordnat ärende" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40ed2015-5127-461f-8cda-8f2cc0043cba}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Is Escalated" languagecode="1033" solutionaction="Added" />
+                          <label description="On eskaloitu" languagecode="1035" solutionaction="Added" />
+                          <label description="Har eskalerat" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0ac33529-ebdb-4c86-981a-2706eb8e4e30}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Escalated On" languagecode="1033" solutionaction="Added" />
+                          <label description="Eskalointiajankohta" languagecode="1035" solutionaction="Added" />
+                          <label description="Eskalerat den" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96c8d2c2-6062-4d29-bf28-53d5d13b200c}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="Follow Up By" languagecode="1033" solutionaction="Added" />
+                          <label description="Seuranta mihin mennessä" languagecode="1035" solutionaction="Added" />
+                          <label description="Senaste uppföljningsdatum" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ebd9944-2069-49fc-af94-cbdc27da64ea}" showlabel="true" locklevel="0" ordinalvalue="10005">
+                        <labels>
+                          <label description="First Response Sent" languagecode="1033" solutionaction="Added" />
+                          <label description="Ensimmäinen vastaus lähetetty" languagecode="1035" solutionaction="Added" />
+                          <label description="Första svaret har skickats" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Applicable SLA(STANDARD)" showlabel="true" showbar="false" locklevel="0" id="{9bbc079e-f433-4759-be2a-756fec3c0ee4}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{b9e47c37-e9bd-46d0-837b-e2bf008fe8e5}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="First Response By" languagecode="1033" solutionaction="Added" />
+                          <label description="Ensimmäisen vastaus viimeistään" languagecode="1035" solutionaction="Added" />
+                          <label description="Första svar senast" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52a189d6-1230-4f1d-aa6c-9909b269c2da}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Resolve By" languagecode="1033" solutionaction="Added" />
+                          <label description="Ratkaistava viimeistään" languagecode="1035" solutionaction="Added" />
+                          <label description="Lös senast" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section name="Social Response" showlabel="true" showbar="false" locklevel="0" id="{2187e4fb-5940-465a-9a37-3ac907a64e5b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{0fc341d7-3c79-45ae-b943-b588c75e54c2}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Social Profile" languagecode="1033" solutionaction="Added" />
+                          <label description="Yhteisöpalveluprofiili" languagecode="1035" solutionaction="Added" />
+                          <label description="Social profil" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d518eeba-8636-4318-9995-ed551aebfb63}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Received As" languagecode="1033" solutionaction="Added" />
+                          <label description="Vastaanotettu nimellä" languagecode="1035" solutionaction="Added" />
+                          <label description="Mottaget som" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0801a6d1-caee-4a20-b499-775641cf9b95}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Influence Score" languagecode="1033" solutionaction="Added" />
+                          <label description="Vaikutuspisteet" languagecode="1035" solutionaction="Added" />
+                          <label description="Påverkarpoäng" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{158b372d-5af9-40c7-b9fb-d6e4b43b2f62}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Sentiment Value" languagecode="1033" solutionaction="Added" />
+                          <label description="Ilmapiiriarvo" languagecode="1035" solutionaction="Added" />
+                          <label description="Känslovärde" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ecc0ff6d-95eb-45ed-863e-13e68ce3c1b5}" showlabel="true" locklevel="0" ordinalvalue="10004">
+                        <labels>
+                          <label description="Blocked Profile" languagecode="1033" solutionaction="Added" />
+                          <label description="Estetty profiili" languagecode="1035" solutionaction="Added" />
+                          <label description="Blockerad profil" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d7a114ae-39da-49c5-8e76-2da36251e64f}" celllabelposition="Top" columns="1111" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{657f908a-233e-4ac7-8688-9b659d8ba73a}" showlabel="true" ordinalvalue="10000">
+              <labels>
+                <label description="Priority" languagecode="1033" solutionaction="Added" />
+                <label description="Prioriteetti" languagecode="1035" solutionaction="Added" />
+                <label description="Prioritet" languagecode="1053" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{3f6d4e94-f4db-47b7-9b9b-7a908adfe5b6}" showlabel="true" ordinalvalue="20001">
+              <labels>
+                <label description="Created On" languagecode="1033" solutionaction="Added" />
+                <label description="Luotu" languagecode="1035" solutionaction="Added" />
+                <label description="Skapad den" languagecode="1053" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{6faa07f6-4a02-4f48-8c3c-91e160884aa6}" ordinalvalue="40003">
+              <labels>
+                <label description="Owner" languagecode="1033" solutionaction="Added" />
+                <label description="Omistaja" languagecode="1035" solutionaction="Added" />
+                <label description="Ägare" languagecode="1053" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Case for Interactive experience" languagecode="1033" />
+      <LocalizedName description="Vuorovaikutteisen kokemuksen palvelupyyntö" languagecode="1035" />
+      <LocalizedName description="Ärende för interaktiv upplevelse" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default Interactive experience Case form." languagecode="1033" />
+      <Description description="Vuorovaikutteisen kokemuksen palvelupyynnön oletuslomake." languagecode="1035" />
+      <Description description="Standardformulär för ärende för interaktiv upplevelse." languagecode="1053" />
+    </Descriptions>
+  </systemform>
+</forms>

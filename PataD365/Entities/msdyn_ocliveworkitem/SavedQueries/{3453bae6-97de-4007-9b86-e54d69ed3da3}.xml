@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{3453bae6-97de-4007-9b86-e54d69ed3da3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" icon="1" preview="1">
+        <row name="result" id="activityid">
+          <cell name="subject" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msdyn_ocliveworkitem">
+          <attribute name="activityid" />
+          <attribute name="subject" />
+          <attribute name="createdon" />
+          <order attribute="subject" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="in">
+              <value>1</value>
+              <value>2</value>
+            </condition>
+            <filter type="or">
+              <condition attribute="msdyn_thirdpartyconversation" operator="eq" value="0" />
+              <condition attribute="msdyn_thirdpartyconversation" operator="null" />
+            </filter>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Closed Conversations" languagecode="1033" />
+      <LocalizedName description="Suljetut keskustelut" languagecode="1035" />
+      <LocalizedName description="Stängda konversationer" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

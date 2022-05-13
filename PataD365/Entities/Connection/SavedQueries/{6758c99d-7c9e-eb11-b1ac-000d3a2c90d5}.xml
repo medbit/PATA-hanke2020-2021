@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{6758c99d-7c9e-eb11-b1ac-000d3a2c90d5}</savedqueryid>
+    <layoutxml>
+      <grid name="connections" jump="record2id" select="1" icon="0" preview="1">
+        <row name="connection" id="connectionid">
+          <cell name="record1id" width="164" />
+          <cell name="record2roleid" width="150" />
+          <cell name="description" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch distinct="false" mapping="logical">
+        <entity name="connection">
+          <attribute name="record2roleid" />
+          <attribute name="connectionid" />
+          <attribute name="description" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity name="contact" alias="aa" link-type="inner" from="contactid" to="record2id">
+            <link-entity name="connection" alias="ab" link-type="inner" from="record2id" to="contactid">
+              <link-entity name="connectionrole" alias="ac" link-type="inner" from="connectionroleid" to="record2roleid">
+                <filter type="and">
+                  <condition attribute="category" operator="eq" value="2" />
+                </filter>
+              </link-entity>
+            </link-entity>
+          </link-entity>
+          <attribute name="record1id" />
+          <order attribute="record1id" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Family Connections" languagecode="1033" />
+      <LocalizedName description="Aktiiviset perhesuhteet" languagecode="1035" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ef6174ea-1a9a-e811-8162-000d3aa13c24}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="subject" select="1" preview="1" icon="1">
+        <row name="result" id="activityid">
+          <cell name="msdyn_liveworkstreamid" width="100" />
+          <cell name="msdyn_customer" width="100" />
+          <cell name="regardingobjectid" width="100" />
+          <cell name="statuscode" width="100" />
+          <cell name="msdyn_createdon" width="100" />
+          <cell name="msdyn_closedon" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" output-format="xml-platform">
+        <entity name="msdyn_ocliveworkitem">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="ownerid" operator="eq-userid" />
+          </filter>
+          <attribute name="statuscode" />
+          <attribute name="regardingobjectid" />
+          <attribute name="msdyn_liveworkstreamid" />
+          <attribute name="msdyn_customer" />
+          <attribute name="msdyn_createdon" />
+          <attribute name="msdyn_closedon" />
+          <attribute name="activityid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Conversations" languagecode="1033" />
+      <LocalizedName description="Omat keskustelut" languagecode="1035" />
+      <LocalizedName description="Mina konversationer" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Active Conversations owned by me" languagecode="1033" />
+      <Description description="Omistamani aktiiviset keskustelut" languagecode="1035" />
+      <Description description="Aktiva konversationer som jag äger" languagecode="1053" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

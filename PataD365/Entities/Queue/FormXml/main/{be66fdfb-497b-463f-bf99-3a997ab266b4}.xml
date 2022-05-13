@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{be66fdfb-497b-463f-bf99-3a997ab266b4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{f78c9df5-0972-40e3-b528-a3158e3ddb68}" IsUserDefined="0" labelid="{de186417-1f1f-4b4c-a5f5-d32a5882a941}" ordinalvalue="0">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section name="queue information" showlabel="true" showbar="false" id="{8c03ceb7-caa0-4d27-a17b-a279c612299f}" IsUserDefined="0" columns="1" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left" labelid="{b9629666-cc29-4149-9cd7-0bbb8401eed3}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell colspan="1" id="{4e4d4c73-a162-4e84-be50-52c9b40cb359}" labelid="{da231f3f-5773-4929-9344-2cab5c69375f}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                          <label description="Namn" languagecode="1053" solutionaction="Added" />
+                          <label description="Nimi" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8bc3d17a-9bab-1b67-5640-b9cd07390709}" showlabel="true" locklevel="0" labelid="{0733fbdc-61d1-49a4-9f17-92bb31df4add}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Priority" languagecode="1033" solutionaction="Added" />
+                          <label description="Prioritet" languagecode="1053" solutionaction="Added" />
+                          <label description="Prioriteetti" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{53a871c9-44ca-b00a-5a57-1596d5355404}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="1" id="{6e4f77f7-00f6-4ea3-bb36-438edbac98f6}" labelid="{3a4f2ccf-375b-4800-9f4b-3e3e93fcbbbc}" ordinalvalue="10003">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                          <label description="Ägare" languagecode="1053" solutionaction="Added" />
+                          <label description="Omistaja" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62edba8a-6731-e8bb-e541-c83a47957934}" showlabel="false" locklevel="0" visible="false" ordinalvalue="10004">
+                        <labels>
+                          <label description="Is Omnichannel queue" languagecode="1033" solutionaction="Added" />
+                          <label description="Är flerkanalskö" languagecode="1053" solutionaction="Added" />
+                          <label description="On Monikanava-jono" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21d2b45e-d6e9-8701-92d1-1d339b3738aa}" showlabel="false" locklevel="1" visible="false" ordinalvalue="10005">
+                        <labels>
+                          <label description="Type" languagecode="1033" solutionaction="Added" />
+                          <label description="Typ" languagecode="1053" solutionaction="Added" />
+                          <label description="Tyyppi" languagecode="1035" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{94672879-3639-7c07-a3bc-805474960523}" showlabel="true" locklevel="0" ordinalvalue="10007" solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%" id="1">
+              <sections>
+                <section name="general_section_4" showlabel="false" showbar="false" locklevel="0" id="{daac86d4-40ba-79eb-8072-6ccebaee8013}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{dffc88fc-c488-47b8-a4d4-e926a761ec85}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{aad82e90-6b91-5c3d-0d40-5d88198634d9}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{1ffb1ebb-9ada-4a35-b61d-7d46d84a16d1}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{f0c4dff9-5b46-457d-ba55-f0309c8813d9}" columns="111">
+        <rows>
+          <row>
+            <cell id="{4d66dc7e-10ab-e266-a750-32a5552b76b2}" showlabel="false" locklevel="0" labelid="{f29ddc7f-63b7-41f8-a89f-4b560b665559}" visible="false" ordinalvalue="20001">
+              <labels>
+                <label description="Convert Incoming Email To Activities" languagecode="1033" solutionaction="Added" />
+                <label description="Konvertera inkommande e-post till aktiviteter" languagecode="1053" solutionaction="Added" />
+                <label description="Muunna saapuva sähköposti aktiviteeteiksi:" languagecode="1035" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{1b836c00-0659-5110-2ead-e267683b66e4}" showlabel="false" locklevel="0" labelid="{2fb5169a-41b6-40bc-963e-5441405e5974}" visible="false" ordinalvalue="30002">
+              <labels>
+                <label description="Type" languagecode="1033" solutionaction="Added" />
+                <label description="Typ" languagecode="1053" solutionaction="Added" />
+                <label description="Tyyppi" languagecode="1035" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Omnichannel queue" languagecode="1033" />
+      <LocalizedName description="Monikanava-jono" languagecode="1035" />
+      <LocalizedName description="Flerkanalskö" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Tämän entiteetin lomake." languagecode="1035" />
+      <Description description="Ett formulär för den här entiteten." languagecode="1053" />
+    </Descriptions>
+  </systemform>
+</forms>
