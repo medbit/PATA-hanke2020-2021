@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2708fa30-65f9-41eb-b035-4a75eb8a5e4b}</savedqueryid>
+    <layoutxml>
+      <grid name="cgi_articles" jump="cgi_title" select="1" icon="1" preview="1">
+        <row name="cgi_article" id="cgi_articleid">
+          <cell name="cgi_title" width="300" />
+          <cell name="createdon" width="100" />
+          <cell name="createdby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="modifiedby" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_article">
+          <attribute name="cgi_title" />
+          <order attribute="cgi_title" descending="false" />
+          <attribute name="cgi_articleid" />
+          <attribute name="createdon" />
+          <attribute name="createdby" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Article Associated View" languagecode="1033" />
+      <LocalizedName description="Artikkelit liitetty näkymä" languagecode="1035" />
+      <LocalizedName description="Associerad vy för kunskapsbasartikel" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

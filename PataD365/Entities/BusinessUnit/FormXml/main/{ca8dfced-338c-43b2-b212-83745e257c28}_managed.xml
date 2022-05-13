@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ca8dfced-338c-43b2-b212-83745e257c28}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{cfab2cf1-b18a-47e0-aaab-652d981e0b15}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="section 1" showlabel="false" showbar="false" id="{73df77a5-246c-4457-a19f-a603d0c42dc5}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7d7e8b42-03aa-4d9a-b73c-21c0fcb989e5}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Added" />
+                          <label description="Nimi" languagecode="1035" solutionaction="Added" />
+                          <label description="Namn" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{bbbd5d6c-3f7a-498a-950b-ccf999091630}" ordinalvalue="20001">
+                        <labels>
+                          <label description="Main Phone" languagecode="1033" solutionaction="Added" />
+                          <label description="Ensisijainen puhelin" languagecode="1035" solutionaction="Added" />
+                          <label description="Växel" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{141d1032-4c53-4680-9c89-6d29c0fe4828}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Division" languagecode="1033" solutionaction="Added" />
+                          <label description="Osasto" languagecode="1035" solutionaction="Added" />
+                          <label description="Avdelning" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{9bfad2ba-908b-4291-9fd5-1462c167d0a1}" ordinalvalue="20003">
+                        <labels>
+                          <label description="Other Phone" languagecode="1033" solutionaction="Added" />
+                          <label description="Muu puhelin" languagecode="1035" solutionaction="Added" />
+                          <label description="Annan telefon" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02d736ce-1596-4b8a-ae5f-876e47808aba}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Modified">
+                        <labels>
+                          <label description="Parent Business" languagecode="1033" solutionaction="Added" />
+                          <label description="Ylätason liiketoimintayksikkö" languagecode="1035" solutionaction="Added" />
+                          <label description="Överordnat företag" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                        <control id="parentbusinessunitid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentbusinessunitid" uniqueid="{a35adb6e-14d6-1954-ea9c-3b4ab31c9e24}" disabled="false" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{408041F8-B27C-4741-9F7A-85EB1714E6A5}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d78399a-96e0-4335-a0ca-eaf670473b08}" ordinalvalue="10006">
+                        <labels>
+                          <label description="Website" languagecode="1033" solutionaction="Added" />
+                          <label description="WWW-sivusto" languagecode="1035" solutionaction="Added" />
+                          <label description="Webbplats" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell id="{f20442e1-b679-4988-aeba-3576b35047ba}" ordinalvalue="20007">
+                        <labels>
+                          <label description="Email" languagecode="1033" solutionaction="Added" />
+                          <label description="Sähköposti" languagecode="1035" solutionaction="Added" />
+                          <label description="E-post" languagecode="1053" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="addresses" id="{3ff9204b-c090-4264-ab41-4d0fd3fb77cc}" IsUserDefined="0" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="bill to address" showlabel="true" showbar="true" id="{df597351-a325-44d3-b356-d5f1e98e6553}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{ab02de6b-ddcc-4fb2-a8b8-62188a881ac9}" showlabel="false" ordinalvalue="20007" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+                <section name="ship to address" showlabel="true" showbar="true" id="{e7f7fb01-ff2f-40ad-bdfc-534f1a71ea5f}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{7a134fec-fced-4ded-a58c-d3e455678d67}" showlabel="false" ordinalvalue="20007" solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation solutionaction="Added">
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Tiedot" languagecode="1035" />
+      <LocalizedName description="Information" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Tämän entiteetin lomake." languagecode="1035" />
+      <Description description="Ett formulär för den här entiteten." languagecode="1053" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6c950712-cb81-4739-8dd6-f8d0cad25791}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_title" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_articleid">
+          <cell name="cgi_title" width="300" />
+          <cell name="cgi_organizationid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cgi_category" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="cgi_description" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_article">
+          <attribute name="cgi_title" />
+          <attribute name="createdon" />
+          <order attribute="cgi_title" descending="false" />
+          <attribute name="cgi_organizationid" />
+          <attribute name="cgi_description" />
+          <attribute name="cgi_category" />
+          <attribute name="cgi_articleid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Article Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Artikkelit erikoishaun näkymä" languagecode="1035" />
+      <LocalizedName description="Avancerad sökningsvy för artikel" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

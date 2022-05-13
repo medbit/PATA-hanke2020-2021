@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{added2b5-cd27-4286-81c8-de0494bacd1e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_title" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_articleid">
+          <cell name="cgi_title" width="300" />
+          <cell name="createdon" width="100" />
+          <cell name="createdby" width="100" />
+          <cell name="modifiedon" width="100" />
+          <cell name="modifiedby" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="statecode" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_article">
+          <attribute name="cgi_title" />
+          <order attribute="cgi_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_articleid" />
+          <attribute name="createdon" />
+          <attribute name="createdby" />
+          <attribute name="modifiedon" />
+          <attribute name="modifiedby" />
+          <attribute name="ownerid" />
+          <attribute name="statecode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Articles" languagecode="1033" />
+      <LocalizedName description="Aktiiviset artikkelit" languagecode="1035" />
+      <LocalizedName description="Aktiva Artiklar" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

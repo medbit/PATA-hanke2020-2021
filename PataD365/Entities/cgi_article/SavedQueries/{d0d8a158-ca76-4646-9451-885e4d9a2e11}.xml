@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d0d8a158-ca76-4646-9451-885e4d9a2e11}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_title" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_articleid">
+          <cell name="cgi_title" width="200" />
+          <cell name="cgi_titlesv" width="200" />
+          <cell name="cgi_keywordsfi" width="100" />
+          <cell name="cgi_keywordssv" width="100" />
+          <cell name="cgi_summaryfi" width="100" />
+          <cell name="cgi_summarysv" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_article">
+          <attribute name="cgi_title" />
+          <order attribute="cgi_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cgi_title" operator="like" value="{0}" />
+            <condition attribute="cgi_contentfi" operator="like" value="{0}" />
+            <condition attribute="cgi_contentsv" operator="like" value="{0}" />
+            <condition attribute="cgi_keywordsfi" operator="like" value="{0}" />
+            <condition attribute="cgi_keywordssv" operator="like" value="{0}" />
+            <condition attribute="cgi_summaryfi" operator="like" value="{0}" />
+            <condition attribute="cgi_summarysv" operator="like" value="{0}" />
+            <condition attribute="cgi_titlesv" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cgi_articleid" />
+          <attribute name="cgi_titlesv" />
+          <attribute name="cgi_keywordsfi" />
+          <attribute name="cgi_keywordssv" />
+          <attribute name="cgi_summaryfi" />
+          <attribute name="cgi_summarysv" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Articles" languagecode="1033" />
+      <LocalizedName description="Artikkelit pikahakunäkymä" languagecode="1035" />
+      <LocalizedName description="Quick Find Active Articles" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

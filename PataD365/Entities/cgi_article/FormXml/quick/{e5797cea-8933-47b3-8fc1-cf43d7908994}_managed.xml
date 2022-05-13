@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e5797cea-8933-47b3-8fc1-cf43d7908994}</formid>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{3a12b900-fbea-4613-8b91-bd50dbe0c3ce}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4de17d1c-1565-401d-9e02-62cf9ed7f0a0}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                    <label description="YLEISET" languagecode="1035" />
+                    <label description="ALLMÄNT" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a4c20622-f116-4ae5-8356-b018ad0b3dc2}">
+                        <labels>
+                          <label description="Title FI" languagecode="1033" />
+                          <label description="Otsikko FI" languagecode="1035" />
+                          <label description="Titel FI" languagecode="1053" />
+                        </labels>
+                        <control id="cgi_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93e213a1-83c3-414d-9a8d-789f8cee3dd4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Omistaja" languagecode="1035" />
+                          <label description="Ägare" languagecode="1053" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Tiedot" languagecode="1035" />
+      <LocalizedName description="Information" languagecode="1053" />
+    </LocalizedNames>
+  </systemform>
+</forms>

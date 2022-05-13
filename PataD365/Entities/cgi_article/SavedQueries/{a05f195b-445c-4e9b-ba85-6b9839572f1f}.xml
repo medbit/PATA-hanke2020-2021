@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a05f195b-445c-4e9b-ba85-6b9839572f1f}</savedqueryid>
+    <layoutxml>
+      <grid name="cgi_articles" jump="cgi_title" select="1" icon="1" preview="0">
+        <row name="cgi_article" id="cgi_articleid">
+          <cell name="cgi_title" width="200" />
+          <cell name="cgi_owningorganization" width="200" />
+          <cell name="cgi_titlesv" width="200" />
+          <cell name="cgi_category" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_article">
+          <attribute name="cgi_articleid" />
+          <attribute name="cgi_title" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="cgi_title" descending="false" />
+          <attribute name="cgi_category" />
+          <attribute name="cgi_owningorganization" />
+          <attribute name="cgi_titlesv" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.3</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Article Lookup View" languagecode="1033" />
+      <LocalizedName description="Artikkelit hakunäkymä" languagecode="1035" />
+      <LocalizedName description="Article Lookup View" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
