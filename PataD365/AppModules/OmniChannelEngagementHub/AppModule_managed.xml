@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>OmniChannelEngagementHub</UniqueName>
+  <IntroducedVersion>9.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>1</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="60" id="{02f86726-b9e5-4cbb-9c09-297e8f0f8a9c}" solutionaction="Added" />
+    <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" solutionaction="Added" />
+    <AppModuleComponent type="60" id="{47a858c1-6aa3-eb11-b1ac-000d3a2ca4f6}" solutionaction="Added" />
+    <AppModuleComponent type="60" id="{45cd24e1-709e-eb11-b1ac-000d3a2c9c15}" solutionaction="Added" />
+    <AppModuleComponent type="60" id="{42a49cef-39a3-eb11-b1ac-000d3a2cad45}" solutionaction="Added" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" solutionaction="Added" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyn_ocliveworkitem" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="goal" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="msdyn_knowledgesearchfilter" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="cgi_article" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="queue" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="cgi_servicecatalog" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="cgi_servicechannel" solutionaction="Added" />
+    <AppModuleComponent type="1" schemaName="cgi_servicenotification" solutionaction="Added" />
+    <AppModuleComponent type="60" id="{65e050d3-8b71-4b53-acb5-bb9af83bf384}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{4e76815a-1f63-df11-ae90-00155d2e3002}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{acb40ffe-a1e0-47d0-a472-799911009df6}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{6e00802f-8c73-df11-986c-00155d2e3002}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{063e7659-05d9-4030-960d-10fe269a5a8b}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{915f6055-2e07-4276-ae08-2b96c8d02c57}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{cc760212-3eab-4009-b5c3-ea9cf6f3e141}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{05ea391a-d034-43fe-849b-b4fa3213a2b2}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{5194a156-576a-4fa1-bf1a-abf7a41b0e8c}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{986258b5-2985-4ae0-970a-5e1d108ab793}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{e9a9c8a9-e94d-47a9-a6c3-ec37ddb83b99}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{48028ae0-bf87-48c9-adf6-3dc9f29d7661}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{6df8e8ce-7655-468c-925e-660d59aa7f4c}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{185177f7-780e-4897-a60a-32a245841ee9}" solutionaction="Removed" />
+    <AppModuleComponent type="60" id="{5f304da5-d0c5-4776-b8d6-7d5bcd94d869}" solutionaction="Removed" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{f7f90019-dc14-e911-816a-000d3a069ebd}" />
+    <Role id="{c30bdbfe-7553-e811-8147-000d3aa39708}" />
+    <Role id="{e4435009-7653-e811-8147-000d3aa39708}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <EventHandlers>
+    <EventHandler eventname="onload" functionname="AppRuntime.Bootstrapper.CECBootstrapper.Instance.init" libraryname="msdyn_CECAppRuntime.js" parameters="" enable="true" />
+  </EventHandlers>
+  <LocalizedNames>
+    <LocalizedName description="Pata " languagecode="1033" />
+    <LocalizedName description="Customer Servicen monikanava" languagecode="1035" />
+    <LocalizedName description="Flerkanal för Customer Service" languagecode="1053" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Yhtenäinen käyttökokemus kokemus asiakaspalvelijoillesi, jotka ovat vuorovaikutuksessa eri viestintäkanavien kautta tarjoten entistä parempaa asiakaspalvelua." languagecode="1033" />
+    <Description description="Yhtenäinen käyttökokemus kokemus asiakaspalvelijoillesi, jotka ovat vuorovaikutuksessa eri viestintäkanavien kautta tarjoten entistä parempaa asiakaspalvelua." languagecode="1035" />
+    <Description description="En enhetlig upplevelse för handläggare som arbetar i flera kommunikationskanaler för att ge en bättre kundservice." languagecode="1053" />
+  </Descriptions>
+</AppModule>

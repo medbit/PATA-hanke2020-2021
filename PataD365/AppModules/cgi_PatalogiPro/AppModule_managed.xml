@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>cgi_PatalogiPro</UniqueName>
+  <IntroducedVersion>1.0.0.11</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="cgi_article" />
+    <AppModuleComponent type="26" id="{e296e48a-ed2c-ec11-b6e5-000d3a2aa20b}" />
+    <AppModuleComponent type="26" id="{42d3d697-ed2c-ec11-b6e5-000d3a2aa20b}" />
+    <AppModuleComponent type="26" id="{44ebd9d4-98cc-4000-ac19-38c4ed3ecd64}" />
+    <AppModuleComponent type="26" id="{af4daddb-6c4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{e006f9e1-6c4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{e10c08ee-6c4b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{e40c08ee-6c4b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{cb221bf6-6c4b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{681624fc-6c4b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{added2b5-cd27-4286-81c8-de0494bacd1e}" />
+    <AppModuleComponent type="1" schemaName="cgi_service" />
+    <AppModuleComponent type="26" id="{5380206d-f02c-ec11-b6e5-000d3a2aa20b}" />
+    <AppModuleComponent type="26" id="{78d77b7a-f02c-ec11-b6e5-000d3a2aa20b}" />
+    <AppModuleComponent type="26" id="{9736ee1a-6e4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{5a4f9921-6e4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{eb0cc627-6e4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{a4729e2e-6e4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{fdadb613-6e4b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{5ca5461b-6e4b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{55ec45ed-3784-4493-b444-64878b3a4265}" />
+    <AppModuleComponent type="26" id="{5bf2633e-ed01-4b4c-97be-fb2c931b443b}" />
+    <AppModuleComponent type="1" schemaName="cgi_servicenotification" />
+    <AppModuleComponent type="26" id="{d8936d3a-e02f-ec11-b6e6-000d3aad6038}" />
+    <AppModuleComponent type="26" id="{70e06813-1d17-ec11-b6e6-6045bd8b8357}" />
+    <AppModuleComponent type="26" id="{8efde8d4-6f4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{aa44e1da-6f4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{348cd9e0-6f4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{6ecc8be7-6f4b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{855ca7cd-6f4b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{0d692fde-6f4b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{220115d8-737d-49ca-a64f-877b7f17a364}" />
+    <AppModuleComponent type="26" id="{202c13e2-e1de-480d-9d37-a5617cdf85d1}" />
+    <AppModuleComponent type="1" schemaName="cgi_serviceplace" />
+    <AppModuleComponent type="26" id="{94917a98-df2f-ec11-b6e6-000d3aad6038}" />
+    <AppModuleComponent type="26" id="{93106cc6-df2f-ec11-b6e6-000d3aad6f9e}" />
+    <AppModuleComponent type="26" id="{0cb971a8-169e-46ba-90c8-25e05f3f7631}" />
+    <AppModuleComponent type="26" id="{861af01e-90f0-4be0-b37e-276a922c3dc4}" />
+    <AppModuleComponent type="26" id="{ff29ad6b-704b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{7a16007a-704b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{4a685286-704b-ec11-8c62-6045bd8f523d}" />
+    <AppModuleComponent type="26" id="{1d559572-704b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{0a918579-704b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{f70fb77f-704b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="1" schemaName="cgi_servicetype" />
+    <AppModuleComponent type="26" id="{b1760230-db2f-ec11-b6e6-000d3aad6f9e}" />
+    <AppModuleComponent type="26" id="{b1d98f17-714b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{862e7728-714b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{3bedd734-714b-ec11-8c62-6045bd8f5ecb}" />
+    <AppModuleComponent type="26" id="{7ccc8688-7eab-47a0-8c71-ce3249795c77}" />
+    <AppModuleComponent type="26" id="{032704f3-ce32-4ef7-94b4-fce3a636dcac}" />
+    <AppModuleComponent type="1" schemaName="cgi_ownerorganization" />
+    <AppModuleComponent type="26" id="{3828e63f-ec2c-ec11-b6e5-000d3a2aa320}" />
+    <AppModuleComponent type="26" id="{1dc2a080-a71f-4ad0-b891-63dc3e445764}" />
+    <AppModuleComponent type="26" id="{488e1d87-4096-41db-9705-874f0be1c60f}" />
+    <AppModuleComponent type="62" schemaName="cgi_PatalogiPro" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{18437788-a047-ec11-8c62-000d3a44d509}" />
+    <Role id="{530b57ee-a2a8-eb11-b1ac-000d3ac25c66}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="PatalogiPro" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

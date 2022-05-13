@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>OmniChannelEngagementHub</UniqueName>
+  <IntroducedVersion>9.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>1</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="msdyn_unifiedroutingrun" />
+    <AppModuleComponent type="26" id="{2a600798-8762-eb11-a812-000d3a5475f7}" />
+    <AppModuleComponent type="62" schemaName="OmniChannelEngagementHub" />
+    <AppModuleComponent type="29" id="{bcd43793-5686-4fd4-b3b4-c0c26d6f7e40}" />
+    <AppModuleComponent type="29" id="{ab81c1af-1a45-48d9-8133-3edc033dbeef}" />
+    <AppModuleComponent type="29" id="{0ffbcde4-61c1-4355-aa89-aa1d7b2b8792}" />
+    <AppModuleComponent type="29" id="{bd57803e-0408-44d6-b21d-ae7158ec6555}" />
+    <AppModuleComponent type="60" id="{02f86726-b9e5-4cbb-9c09-297e8f0f8a9c}" />
+    <AppModuleComponent type="60" id="{e8fb53c5-2f79-e811-8162-000d3aa3ef73}" />
+    <AppModuleComponent type="60" id="{7a33c42b-02f9-e811-8161-000d3afe51f1}" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="appointment" />
+    <AppModuleComponent type="60" id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+    <AppModuleComponent type="1" schemaName="activitymimeattachment" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="60" id="{47a858c1-6aa3-eb11-b1ac-000d3a2ca4f6}" />
+    <AppModuleComponent type="1" schemaName="category" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{45cd24e1-709e-eb11-b1ac-000d3a2c9c15}" />
+    <AppModuleComponent type="60" id="{42a49cef-39a3-eb11-b1ac-000d3a2cad45}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001033}" />
+    <AppModuleComponent type="1" schemaName="msdyn_ocliveworkitem" />
+    <AppModuleComponent type="60" id="{136b3800-234b-420c-9d8a-458b61cb2263}" />
+    <AppModuleComponent type="60" id="{5fe86453-73ea-4821-b6dd-ddc06e1755a1}" />
+    <AppModuleComponent type="1" schemaName="email" />
+    <AppModuleComponent type="60" id="{1d5ad078-3edb-4edc-98c6-c0c21e3125e3}" />
+    <AppModuleComponent type="1" schemaName="entitlement" />
+    <AppModuleComponent type="1" schemaName="expiredprocess" />
+    <AppModuleComponent type="1" schemaName="feedback" />
+    <AppModuleComponent type="1" schemaName="goal" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="60" id="{f7502aaf-4874-49fc-868d-cc201c6c4453}" />
+    <AppModuleComponent type="1" schemaName="knowledgearticleincident" />
+    <AppModuleComponent type="60" id="{5e4e7214-a56d-4152-ac51-1a89e463eff4}" />
+    <AppModuleComponent type="1" schemaName="knowledgebaserecord" />
+    <AppModuleComponent type="1" schemaName="msdyn_knowledgesearchfilter" />
+    <AppModuleComponent type="1" schemaName="newprocess" />
+    <AppModuleComponent type="1" schemaName="msdyn_dataanalyticsreport_oc" />
+    <AppModuleComponent type="26" id="{6c32370c-fa4d-4dbd-8954-99ef52ea0b1b}" />
+    <AppModuleComponent type="1" schemaName="msdyn_dataanalyticsreport_ocvoice" />
+    <AppModuleComponent type="26" id="{f1741423-6553-4ade-adfb-9f9dbfa3dad4}" />
+    <AppModuleComponent type="1" schemaName="cgi_article" />
+    <AppModuleComponent type="1" schemaName="phonecall" />
+    <AppModuleComponent type="60" id="{cdc622ea-2a17-4cc3-9605-44564d56cea7}" />
+    <AppModuleComponent type="1" schemaName="phonetocaseprocess" />
+    <AppModuleComponent type="1" schemaName="queue" />
+    <AppModuleComponent type="1" schemaName="queueitem" />
+    <AppModuleComponent type="1" schemaName="cgi_servicecatalog" />
+    <AppModuleComponent type="1" schemaName="cgi_servicechannel" />
+    <AppModuleComponent type="1" schemaName="cgi_servicenotification" />
+    <AppModuleComponent type="1" schemaName="socialactivity" />
+    <AppModuleComponent type="60" id="{ed66d7d6-2234-4e82-b73e-e711e796919d}" />
+    <AppModuleComponent type="1" schemaName="socialprofile" />
+    <AppModuleComponent type="60" id="{a0ea0f71-dc25-47b6-8cc9-9ef8144ae424}" />
+    <AppModuleComponent type="1" schemaName="task" />
+    <AppModuleComponent type="60" id="{d5b4a1b2-de4f-4f86-8768-b0730001e7d1}" />
+    <AppModuleComponent type="1" schemaName="translationprocess" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{f7f90019-dc14-e911-816a-000d3a069ebd}" />
+    <Role id="{c30bdbfe-7553-e811-8147-000d3aa39708}" />
+    <Role id="{e4435009-7653-e811-8147-000d3aa39708}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <EventHandlers>
+    <EventHandler eventname="onload" functionname="AppRuntime.Bootstrapper.CECBootstrapper.Instance.init" libraryname="msdyn_CECAppRuntime.js" parameters="" enable="true" />
+  </EventHandlers>
+  <LocalizedNames>
+    <LocalizedName description="Pata " languagecode="1033" />
+    <LocalizedName description="Customer Servicen monikanava" languagecode="1035" />
+    <LocalizedName description="Flerkanal för Customer Service" languagecode="1053" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Yhtenäinen käyttökokemus kokemus asiakaspalvelijoillesi, jotka ovat vuorovaikutuksessa eri viestintäkanavien kautta tarjoten entistä parempaa asiakaspalvelua." languagecode="1033" />
+    <Description description="Yhtenäinen käyttökokemus kokemus asiakaspalvelijoillesi, jotka ovat vuorovaikutuksessa eri viestintäkanavien kautta tarjoten entistä parempaa asiakaspalvelua." languagecode="1035" />
+    <Description description="En enhetlig upplevelse för handläggare som arbetar i flera kommunikationskanaler för att ge en bättre kundservice." languagecode="1053" />
+  </Descriptions>
+</AppModule>
