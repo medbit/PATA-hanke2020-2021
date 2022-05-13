@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{41368f9d-3a49-4041-8231-ada59c9f55b6}</formid>
+    <IntroducedVersion>1.0.0.12</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{756e9974-f591-464e-9eff-361a21aea6a2}" IsUserDefined="1" name="tab_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Yleiset" languagecode="1035" />
+            <label description="Allmänt" languagecode="1053" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{fed33e1f-753e-4fd6-a021-a828e645c2e0}" name="section_general" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Yleiset" languagecode="1035" />
+                    <label description="Allmänt" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{df95ba0c-9236-4c04-91ff-517c7f328ded}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owning Organization" languagecode="1033" />
+                          <label description="Ägande organisation" languagecode="1053" />
+                          <label description="Omistava organisaatio" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_owningorganization" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cgi_owningorganization" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{d7a4f1f8-1666-47eb-bf95-b49286b32a89}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f213a3d0-cbc9-4217-9004-8f25aa9eae02}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                          <label description="Starttid" languagecode="1053" />
+                          <label description="Alkaa" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_starttime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cgi_starttime" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{2ddef1e5-8de1-4d50-8eb5-c994e5ffbe2f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce1a8297-ab24-4c08-a238-9b919b7dc1c1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                          <label description="Sluttid" languagecode="1053" />
+                          <label description="Loppuu" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_endtime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cgi_endtime" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{baf7101d-8bda-4d53-a881-df5c4c9bf96e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="section_translations" id="2e293716-7076-4a4a-becb-53ccdae9eb7c" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Translations" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9734c89d-c3da-4355-899b-ab017bec4bed}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Title FI" languagecode="1033" />
+                          <label description="Titel FI" languagecode="1053" />
+                          <label description="Otsikko FI" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_title" />
+                      </cell>
+                      <cell id="{90fc0fbe-c966-495a-8169-5b704a0e2720}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Title SV" languagecode="1033" />
+                          <label description="Titel SV" languagecode="1053" />
+                          <label description="Otsikko SV" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_titlesv" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_titlesv" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a95749be-f31e-48d9-bd88-5cf35e66d206}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Summary FI" languagecode="1033" />
+                          <label description="Sammanfattning FI" languagecode="1053" />
+                          <label description="Tiivistelmä FI" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_summaryfi" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_summaryfi" disabled="false" />
+                      </cell>
+                      <cell id="{3dd9ff8d-2eaf-4f75-bce4-e61cfdd8e342}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Summary SV" languagecode="1033" />
+                          <label description="Sammanfattning SV" languagecode="1053" />
+                          <label description="Tiivistelmä SV" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_summarysv" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_summarysv" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4536c8db-4d61-4618-866f-cbd0c25ea54b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Content FI" languagecode="1033" />
+                          <label description="Innehåll FI" languagecode="1053" />
+                          <label description="Sisältö FI" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_contentfi" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cgi_contentfi" disabled="false" uniqueid="{a1716a2c-c556-4bb5-a848-105cd8593606}" />
+                      </cell>
+                      <cell id="{a7e77a36-b80e-468e-8ce4-df6957cd3596}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Content SV" languagecode="1033" />
+                          <label description="Innehåll SV" languagecode="1053" />
+                          <label description="Sisältö SV" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_contentsv" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="cgi_contentsv" disabled="false" uniqueid="{099c309b-b141-4bd2-b3be-71ac524774d4}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="297194a9-5aeb-4da7-ad97-9106268393f9" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Targeted Content" languagecode="1033" />
+            <label description="Kohdistettu sisältö" languagecode="1035" />
+            <label description="Riktat innehåll" languagecode="1053" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="86a76740-38c0-45a4-b4a8-460cb72bd4be" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{49705c94-15b1-41c2-b183-f74fdeda6a88}" rowspan="1" colspan="1" showlabel="false" auto="true">
+                        <labels>
+                          <label description="New SG control 1634565910805" languagecode="1033" />
+                          <label description="Tjänstetyper" languagecode="1053" />
+                          <label description="Palvelutyypit" languagecode="1035" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>cgi_servicetype</TargetEntityType>
+                            <ViewId>{B1760230-DB2F-EC11-B6E6-000D3AAD6F9E}</ViewId>
+                            <ViewIds>{B1760230-DB2F-EC11-B6E6-000D3AAD6F9E}</ViewIds>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <RelationshipName>cgi_servicenotification_servicetype</RelationshipName>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{ddad9d0b-1f69-41ef-b0f6-e1f886ecd2de}" rowspan="1" colspan="1" showlabel="false" auto="true">
+                        <labels>
+                          <label description="New SG control 1634565938372" languagecode="1033" />
+                          <label description="Tjänster" languagecode="1053" />
+                          <label description="Palvelut" languagecode="1035" />
+                        </labels>
+                        <control id="Subgrid_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>cgi_service</TargetEntityType>
+                            <ViewId>{5380206D-F02C-EC11-B6E5-000D3A2AA20B}</ViewId>
+                            <ViewIds>{5380206D-F02C-EC11-B6E5-000D3A2AA20B},{78D77B7A-F02C-EC11-B6E5-000D3A2AA20B}</ViewIds>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <RelationshipName>cgi_servicenotification_service</RelationshipName>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{12f8868e-79e9-498c-a701-8b72665b1f08}" rowspan="1" colspan="1" showlabel="false" auto="true">
+                        <labels>
+                          <label description="New SG control 1634565950015" languagecode="1033" />
+                          <label description="Serviceställen" languagecode="1053" />
+                          <label description="Palvelupaikat" languagecode="1035" />
+                        </labels>
+                        <control id="Subgrid_3" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>cgi_serviceplace</TargetEntityType>
+                            <ViewId>{94917A98-DF2F-EC11-B6E6-000D3AAD6038}</ViewId>
+                            <ViewIds>{94917A98-DF2F-EC11-B6E6-000D3AAD6038},{93106CC6-DF2F-EC11-B6E6-000D3AAD6F9E}</ViewIds>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <RelationshipName>cgi_servicenotification_serviceplace</RelationshipName>
+                            <AutoExpand>Auto</AutoExpand>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d62c5d07-a765-47c0-a449-31ecc67c900d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{294c9d1b-9289-4237-86d9-4a7281eb493e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ebaa5d2a-3e47-4241-b0ba-49ea821b69a9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b209654e-0e33-4f04-8c97-273f1d2d5b7a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a08cedd4-b6f5-477c-ac9a-89b76746c970}" colspan="1" rowspan="1" visible="true">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Ägare" languagecode="1053" />
+                <label description="Omistaja" languagecode="1035" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" />
+            </cell>
+            <cell id="{3c24cf35-bbc9-4c69-8a3b-5fd6492fb8ac}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Modified On" languagecode="1033" />
+                <label description="Ändrad den" languagecode="1053" />
+                <label description="Muokattu" languagecode="1035" />
+              </labels>
+              <control id="header_modifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="false" />
+            </cell>
+            <cell id="{7dbc165c-197c-4687-8a0e-0eea280d97e7}" locklevel="0" colspan="1" rowspan="1" visible="true">
+              <labels>
+                <label description="Status" languagecode="1033" />
+                <label description="Status" languagecode="1053" />
+                <label description="Tila" languagecode="1035" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{c330ee49-327b-4922-bf48-f602c5d02418}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{94717f98-89ca-4bda-953f-bb190f28aa11}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dc62d982-234c-415e-a94a-ba587ff2a4a9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{997fd1fd-d64d-42fc-ae60-532c2208aeed}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{a1716a2c-c556-4bb5-a848-105cd8593606}">
+          <customControl id="{E0DECE4B-6FC8-4A8F-A065-082708572369}">
+            <parameters>
+              <datafieldname>cgi_contentfi</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">cgi_contentfi</value>
+              <configUrl type="SingleLine.URL" static="true">WebResources/cgi_/Common/RTEPataConfiguration.json</configUrl>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">cgi_contentfi</value>
+              <configUrl type="SingleLine.URL" static="true">WebResources/cgi_/Common/RTEPataConfiguration.json</configUrl>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">cgi_contentfi</value>
+              <configUrl type="SingleLine.URL" static="true">WebResources/cgi_/Common/RTEPataConfiguration.json</configUrl>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{099c309b-b141-4bd2-b3be-71ac524774d4}">
+          <customControl id="{E0DECE4B-6FC8-4A8F-A065-082708572369}">
+            <parameters>
+              <datafieldname>cgi_contentsv</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">cgi_contentsv</value>
+              <configUrl type="SingleLine.URL" static="true">WebResources/cgi_/Common/RTEPataConfiguration.json</configUrl>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">cgi_contentsv</value>
+              <configUrl type="SingleLine.URL" static="true">WebResources/cgi_/Common/RTEPataConfiguration.json</configUrl>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">cgi_contentsv</value>
+              <configUrl type="SingleLine.URL" static="true">WebResources/cgi_/Common/RTEPataConfiguration.json</configUrl>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Tiedot" languagecode="1035" />
+      <LocalizedName description="Information" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6d0461ea-eedb-4f7c-9250-8e5621a332d2}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{a70d55a0-2882-4671-b94c-e1a7768ac27d}" IsUserDefined="1" name="tab_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Yleiset" languagecode="1035" />
+            <label description="Allmänt" languagecode="1053" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f80395fe-c482-4253-a874-03a440fd4fd0}" name="section_general">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="YLEISET" languagecode="1035" />
+                    <label description="ALLMÄNT" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a5536ce1-d600-4e9d-81c6-b2f38d594c14}" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Ägare" languagecode="1053" />
+                          <label description="Omistaja" languagecode="1035" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d23b8c0c-e6f7-4ae3-8242-703e398a4d3a}">
+                        <labels>
+                          <label description="Name FI" languagecode="1033" />
+                          <label description="Namn FI" languagecode="1053" />
+                          <label description="Nimi FI" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_nameofserviceplace" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_nameofserviceplace" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8cdd713a-0146-47b2-9260-4be5a35a83dd}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name SV" languagecode="1033" />
+                          <label description="Namn SV" languagecode="1053" />
+                          <label description="Nimi SV" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_namesv" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_namesv" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Tiedot" languagecode="1035" />
+      <LocalizedName description="Information" languagecode="1053" />
+    </LocalizedNames>
+  </systemform>
+</forms>

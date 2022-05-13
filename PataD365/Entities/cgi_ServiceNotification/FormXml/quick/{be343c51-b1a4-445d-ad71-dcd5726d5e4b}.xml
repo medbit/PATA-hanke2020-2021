@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{be343c51-b1a4-445d-ad71-dcd5726d5e4b}</formid>
+    <IntroducedVersion>1.0.0.12</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{97bf5408-5036-4eaa-a540-71e040cbe373}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{dc884515-b365-47db-9c5f-cec518cb8374}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                    <label description="YLEISET" languagecode="1035" />
+                    <label description="ALLMÄNT" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c5d26b72-a9d4-4dc9-8683-29ab9dd57b5a}" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Ägare" languagecode="1053" />
+                          <label description="Omistaja" languagecode="1035" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{68261b4d-f712-4a29-ac14-ffe64156857b}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                          <label description="Titel" languagecode="1053" />
+                          <label description="Otsikko" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5509377-2f82-4918-a900-dc5b53dbac54}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                          <label description="Starttid" languagecode="1053" />
+                          <label description="Alkaa" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_starttime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cgi_starttime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d73bcab-643b-4553-a53e-f5f3443ec743}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                          <label description="Sluttid" languagecode="1053" />
+                          <label description="Loppuu" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_endtime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cgi_endtime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c9ab73f-9b26-48de-9a65-004fec433322}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="REMOVED" languagecode="1033" />
+                          <label description="REMOVED" languagecode="1053" />
+                          <label description="REMOVED" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_description" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cgi_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Tiedot" languagecode="1035" />
+      <LocalizedName description="Information" languagecode="1053" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{046c7f13-ec99-4789-ab2b-260d8dfcead3}</formid>
+    <IntroducedVersion>1.0.0.12</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{d873df34-d3df-4ec3-9c59-852f88776cc1}" IsUserDefined="0">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="25%">
+              <sections>
+                <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{d5f1b3e1-9aca-46b3-9878-17f1d55bf7ea}">
+                  <labels>
+                    <label description="ColorStrip" languagecode="1033" />
+                    <label description="Värinauha" languagecode="1035" />
+                  </labels>
+                </section>
+              </sections>
+            </column>
+            <column width="75%">
+              <sections>
+                <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{329f3364-974b-435b-bafe-f249a2301255}" IsUserDefined="0">
+                  <labels>
+                    <label description="Header" languagecode="1033" />
+                    <label description="Ylätunniste" languagecode="1035" />
+                    <label description="Sidhuvud" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8447255e-cf23-4ddf-a233-f9ed2b005b36}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                          <label description="Statusorsak" languagecode="1053" />
+                          <label description="Tilan syy" languagecode="1035" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                      <cell id="{c10c20bf-6dfb-4a6d-bfb1-67c622fa7c23}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{0e6c1634-2946-4790-9a9d-f10b13a27413}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{e0b85b23-dce1-4306-ad8a-fe88a5b60102}" IsUserDefined="0">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                    <label description="Tiedot" languagecode="1035" />
+                    <label description="Detaljer" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9e8f1b49-ed53-4fca-82e9-fe78e8c5539a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Title FI" languagecode="1033" />
+                          <label description="Titel FI" languagecode="1053" />
+                          <label description="Otsikko FI" languagecode="1035" />
+                        </labels>
+                        <control id="cgi_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cgi_title" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{e6105102-8f1f-4fbe-a980-a70ebcb4e036}" IsUserDefined="0">
+                  <labels>
+                    <label description="Footer" languagecode="1033" />
+                    <label description="Alatunniste" languagecode="1035" />
+                    <label description="Sidfot" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7767ad31-658d-42ec-8dcd-97249740d0aa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Ägare" languagecode="1053" />
+                          <label description="Omistaja" languagecode="1035" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                      <cell id="{faa99e8b-a9b9-4323-8a49-8817dc56fb8c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                          <label description="Skapad den" languagecode="1053" />
+                          <label description="Luotu" languagecode="1035" />
+                        </labels>
+                        <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                      <cell id="{fb30021a-b5c5-4351-96d9-8d8ec5e05d38}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{5544b748-aeee-4401-9e89-848be37f8222}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A card form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

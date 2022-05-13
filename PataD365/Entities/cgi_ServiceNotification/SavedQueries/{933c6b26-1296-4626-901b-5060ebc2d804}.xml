@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{933c6b26-1296-4626-901b-5060ebc2d804}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_title" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_servicenotificationid">
+          <cell name="cgi_title" width="200" />
+          <cell name="cgi_titlesv" width="200" />
+          <cell name="cgi_summaryfi" width="200" />
+          <cell name="cgi_summarysv" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_servicenotification">
+          <attribute name="cgi_servicenotificationid" />
+          <attribute name="cgi_title" />
+          <order attribute="cgi_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cgi_title" operator="like" value="{0}" />
+            <condition attribute="cgi_titlesv" operator="like" value="{0}" />
+            <condition attribute="cgi_summaryfi" operator="like" value="{0}" />
+            <condition attribute="cgi_summarysv" operator="like" value="{0}" />
+            <condition attribute="cgi_contentfi" operator="like" value="{0}" />
+            <condition attribute="cgi_contentsv" operator="like" value="{0}" />
+          </filter>
+          <attribute name="cgi_titlesv" />
+          <attribute name="cgi_summaryfi" />
+          <attribute name="cgi_summarysv" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.12</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Service Notifications" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

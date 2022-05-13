@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{855ca7cd-6f4b-ec11-8c62-6045bd8f5ecb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_title" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_servicenotificationid">
+          <cell name="cgi_title" width="300" />
+          <cell name="cgi_starttime" width="120" />
+          <cell name="cgi_endtime" width="120" />
+          <cell name="cgi_summaryfi" width="300" />
+          <cell name="cgi_owningorganization" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="cgi_servicenotification">
+          <attribute name="cgi_title" />
+          <attribute name="cgi_servicenotificationid" />
+          <attribute name="cgi_starttime" />
+          <attribute name="cgi_endtime" />
+          <order attribute="cgi_endtime" descending="true" />
+          <attribute name="cgi_owningorganization" />
+          <attribute name="cgi_summaryfi" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="cgi_owningorganization" operator="eq" value="{a0dd4963-2330-ec11-b6e6-000d3ab6b962}" uiname="Etelä-Karjalan sosiaali- ja terveydenhuollon kuntayhtymä (Eksote)" uitype="cgi_ownerorganization" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Eksote FI" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Patalogi Service Notifications" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

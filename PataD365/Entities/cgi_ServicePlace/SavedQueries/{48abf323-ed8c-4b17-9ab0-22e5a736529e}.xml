@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{48abf323-ed8c-4b17-9ab0-22e5a736529e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_nameofserviceplace" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_serviceplaceid">
+          <cell name="cgi_nameofserviceplace" width="300" />
+          <cell name="cgi_streetaddress" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_serviceplace">
+          <attribute name="cgi_serviceplaceid" />
+          <attribute name="cgi_nameofserviceplace" />
+          <order attribute="cgi_nameofserviceplace" descending="false" />
+          <attribute name="cgi_streetaddress" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Place Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

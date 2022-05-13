@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{70e06813-1d17-ec11-b6e6-6045bd8b8357}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_title" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_servicenotificationid">
+          <cell name="cgi_title" width="300" />
+          <cell name="cgi_starttime" width="120" />
+          <cell name="cgi_endtime" width="120" />
+          <cell name="cgi_summaryfi" width="300" />
+          <cell name="cgi_owningorganization" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cgi_servicenotification">
+          <attribute name="cgi_title" />
+          <attribute name="cgi_servicenotificationid" />
+          <attribute name="cgi_starttime" />
+          <attribute name="cgi_endtime" />
+          <order attribute="cgi_endtime" descending="true" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_owningorganization" />
+          <attribute name="cgi_summaryfi" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.12</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Patalogi Service Notifications FI" languagecode="1033" />
+      <LocalizedName description="Patalogi palveluilmoitukset FI" languagecode="1035" />
+      <LocalizedName description="Patalogi tjänst meddelande FI" languagecode="1053" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{217a8dcf-e1a4-4096-add2-b3b363bc2776}</savedqueryid>
+    <layoutxml>
+      <grid name="cgi_servicechannels" jump="cgi_name" select="1" icon="1" preview="1">
+        <row name="cgi_servicechannel" id="cgi_servicechannelid">
+          <cell name="cgi_name" width="300" />
+          <cell name="cgi_organizationid" width="100" />
+          <cell name="cgi_contactinformation" width="100" />
+          <cell name="cgi_streetaddress" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_servicechannel">
+          <attribute name="cgi_servicechannelid" />
+          <attribute name="cgi_name" />
+          <order attribute="cgi_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_organizationid" />
+          <attribute name="cgi_contactinformation" />
+          <attribute name="cgi_streetaddress" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Channel Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

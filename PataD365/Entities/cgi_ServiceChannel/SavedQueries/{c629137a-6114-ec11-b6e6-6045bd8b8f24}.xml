@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c629137a-6114-ec11-b6e6-6045bd8b8f24}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_name" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_servicechannelid">
+          <cell name="cgi_name" width="200" />
+          <cell name="cgi_organizationid" width="100" />
+          <cell name="cgi_type" width="100" />
+          <cell name="cgi_language" width="100" />
+          <cell name="cgi_summary" width="100" />
+          <cell name="cgi_serviceplaceid" width="100" />
+          <cell name="cgi_postalcode" width="100" />
+          <cell name="cgi_postoffice" width="100" />
+          <cell name="cgi_streetaddress" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="cgi_servicechannel">
+          <attribute name="cgi_name" />
+          <attribute name="cgi_servicechannelid" />
+          <attribute name="cgi_language" />
+          <attribute name="cgi_organizationid" />
+          <attribute name="cgi_postoffice" />
+          <attribute name="cgi_postalcode" />
+          <attribute name="cgi_serviceplaceid" />
+          <attribute name="cgi_streetaddress" />
+          <attribute name="cgi_summary" />
+          <attribute name="cgi_type" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.11</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Patalogi Service Channels" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

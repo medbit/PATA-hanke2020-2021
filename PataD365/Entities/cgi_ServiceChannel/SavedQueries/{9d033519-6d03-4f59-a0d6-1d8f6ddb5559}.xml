@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9d033519-6d03-4f59-a0d6-1d8f6ddb5559}</savedqueryid>
+    <layoutxml>
+      <grid name="cgi_servicechannels" jump="cgi_name" select="1" icon="1" preview="0">
+        <row name="cgi_servicechannel" id="cgi_servicechannelid">
+          <cell name="cgi_name" width="300" />
+          <cell name="cgi_organizationid" width="300" />
+          <cell name="cgi_contactinformation" width="100" />
+          <cell name="cgi_streetaddress" width="172" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_servicechannel">
+          <attribute name="cgi_servicechannelid" />
+          <attribute name="cgi_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_streetaddress" />
+          <attribute name="cgi_organizationid" />
+          <attribute name="cgi_contactinformation" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Channel Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

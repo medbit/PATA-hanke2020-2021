@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{e2b918fc-04b7-eb11-8236-002248805748}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cgi_name" select="1" icon="1" preview="1">
+        <row name="result" id="cgi_servicechannelid">
+          <cell name="cgi_name" width="300" />
+          <cell name="cgi_organizationid" width="100" />
+          <cell name="cgi_contactinformation" width="100" />
+          <cell name="cgi_streetaddress" width="100" />
+          <cell name="cgi_accurateinstructions" width="100" disableSorting="1" />
+          <cell name="cgi_additionaladdressinformation" width="100" />
+          <cell name="cgi_appointmentinstructions" width="100" disableSorting="1" />
+          <cell name="cgi_channelterritory" width="100" />
+          <cell name="cgi_customerinstructions" width="100" disableSorting="1" />
+          <cell name="cgi_description" width="100" disableSorting="1" />
+          <cell name="cgi_isooid" width="100" />
+          <cell name="cgi_language" width="100" disableSorting="1" />
+          <cell name="cgi_otherservices" width="100" disableSorting="1" />
+          <cell name="cgi_serviceplaceid" width="100" />
+          <cell name="cgi_shared" width="100" />
+          <cell name="cgi_summary" width="100" disableSorting="1" />
+          <cell name="cgi_type" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cgi_servicechannel">
+          <attribute name="cgi_name" />
+          <order attribute="cgi_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cgi_organizationid" />
+          <attribute name="cgi_contactinformation" />
+          <attribute name="cgi_streetaddress" />
+          <attribute name="cgi_type" />
+          <attribute name="cgi_summary" />
+          <attribute name="cgi_shared" />
+          <attribute name="cgi_serviceplaceid" />
+          <attribute name="cgi_otherservices" />
+          <attribute name="cgi_language" />
+          <attribute name="cgi_isooid" />
+          <attribute name="cgi_description" />
+          <attribute name="cgi_customerinstructions" />
+          <attribute name="cgi_channelterritory" />
+          <attribute name="cgi_appointmentinstructions" />
+          <attribute name="cgi_additionaladdressinformation" />
+          <attribute name="cgi_accurateinstructions" />
+          <attribute name="cgi_servicechannelid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Channels for Import" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
